@@ -1,0 +1,39 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "products": [
+    {
+      "id": 1,
+      "name": "Iphone 9000",
+      "price": "700",
+      "status": false
+    },
+    {
+      "id": 1,
+      "name": "Iphone 8",
+      "price": "800",
+      "status": true
+    },
+    {
+      "id": 2,
+      "name": "Iphone X",
+      "price": "80000",
+      "status": true
+    }
+  ]
+}
