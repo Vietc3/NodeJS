@@ -9,6 +9,6 @@
  */
 
 module.exports.routes = {
-
+'POST products': 'ProductsController.create'
 
 };
