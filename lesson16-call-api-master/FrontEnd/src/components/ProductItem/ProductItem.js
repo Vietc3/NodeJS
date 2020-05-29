@@ -13,6 +13,12 @@ class ProductItem extends Component {
         var { product, index } = this.props;
         var statusName = product.status ? 'Còn Hàng' : 'Hết Hàng';
         var statusClass = product.status ? 'warning' : 'default';
+        console.log(this.props);
+
+        
+        
+
+
         return (
             <tr>
                 <td>{index + 1}</td>

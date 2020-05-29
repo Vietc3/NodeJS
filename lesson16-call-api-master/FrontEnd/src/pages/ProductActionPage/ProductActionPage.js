@@ -23,14 +23,14 @@ class ProductActionPage extends Component {
         }
     }
 
-    componentWillReceiveProps(nextProps){
-        if(nextProps && nextProps.itemEditing){
-            var {itemEditing} = nextProps;
+    componentWillReceiveProps(nextProps) {
+        if (nextProps && nextProps.itemEditing) {
+            var { itemEditing } = nextProps;
             this.setState({
-                id : itemEditing.id,
-                txtName : itemEditing.name,
-                txtPrice : itemEditing.price,
-                chkbStatus : itemEditing.status
+                id: itemEditing.id,
+                txtName: itemEditing.name,
+                txtPrice: itemEditing.price,
+                chkbStatus: itemEditing.status
             });
         }
     }
@@ -49,10 +49,10 @@ class ProductActionPage extends Component {
         var { id, txtName, txtPrice, chkbStatus } = this.state;
         var { history } = this.props;
         var product = {
-            id : id,
-            name : txtName,
-            price : txtPrice,
-            status : chkbStatus
+            id: id,
+            name: txtName,
+            price: txtPrice,
+            status: chkbStatus
         };
         if (id) {
             this.props.onUpdateProduct(product);
@@ -116,19 +116,21 @@ class ProductActionPage extends Component {
 
 const mapStateToProps = state => {
     return {
-        itemEditing : state.itemEditing
+        itemEditing: state.itemEditing,
+       
     }
 }
 
 const mapDispatchToProps = (dispatch, props) => {
     return {
-        onAddProduct : (product) => {
+       
+        onAddProduct: (product) => {
             dispatch(actAddProductRequest(product));
         },
-        onEditProduct : (id) => {
+        onEditProduct: (id) => {
             dispatch(actGetProductRequest(id));
         },
-        onUpdateProduct : (product) => {
+        onUpdateProduct: (product) => {
             dispatch(actUpdateProductRequest(product));
         }
     }

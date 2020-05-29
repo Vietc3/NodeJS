@@ -1,7 +1,29 @@
 import React, { Component } from 'react';
+// import Pagination from "react-js-pagination";t
+
 
 class ProductList extends Component {
+    
+
+
+
+    //   componentDidMount() {
+    //     // this.props.fetchAllProducts();
+    //     // this.setState({
+    //     //   totalRecords: this.props.children.length
+    //     // });
+    //     console.log(this.props.children);
+        
+    //   }
+   
+
+
+
+
     render() {
+
+        console.log(this.props.children);
+        
         return (
             <div className="panel panel-primary">
                 <div className="panel-heading">
