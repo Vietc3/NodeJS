@@ -1,0 +1,47 @@
+{     
+  "presets": [[ "@babel/preset-env", {
+    "modules": false,
+    "targets": {
+   "browsers": [
+     "last 2 Chrome versions",
+     "last 2 Firefox versions",
+     "last 2 Safari versions",
+     "last 2 iOS versions",
+     "last 1 Android version",
+     "last 1 ChromeAndroid version",
+     "ie 11"
+   ]
+    }
+  } ], "@babel/preset-react"],
+  "plugins": [
+    "@babel/proposal-class-properties",
+    "@babel/syntax-dynamic-import",
+    "@babel/transform-runtime",
+      [
+          "module-resolver", {
+            "root": ["./src"],
+            "extensions": [".jsx", ".js", ".json", ".png", ".jpg", ".svg", ".jpeg", ".gif"],
+            "alias": {
+                "": "./src",
+                "components": "./src/components",
+                "assets": "./src/assets",
+                "layouts": "./src/layouts",
+                "variables": "./src/variables",
+                "lib": "./src/lib",
+                "src": "./src",
+                "routes": "./src/routes",
+                "css": "./src/css",
+                "store": "./src/store",
+                "i18n": "./src/i18n",
+                "services": "./src/services",
+                "views": "./src/views",
+                "ExportExcel": "./src/ExportExcel",
+                "locales": "./src/locales", 
+                "MyFunction": "./src/MyFunction",
+                "tinymce": "tinymce"
+            }
+            
+          }
+        ]
+      ] 
+    }

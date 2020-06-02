@@ -1,0 +1,56 @@
+{{BEGIN}}
+<?php
+
+class {{model}}
+{
+{{/BEGIN}}
+    {{VARIABLE_DECLARE}}
+    protected ${{variable}};
+    {{/VARIABLE_DECLARE}}
+
+    {{SETMETHOD}}
+    public function set{{property}}(${{variable}})
+    {
+        return $this->{{variable}} = ${{variable}};
+    }
+    {{/SETMETHOD}}
+    
+    {{GETMETHOD}}
+    public function get{{property}}()
+    {
+        return $this->{{variable}};
+    }
+    {{/GETMETHOD}}
+    
+    {{SAVEMETHOD}}
+    public function save()
+    {
+        if ($this->getId()== null)
+        {
+            if ({{modelpeer}}::DoInsert($this))
+            {
+                $id = {{modelpeer}}::GetInsertId();
+                $this->setId($id);
+                return true;
+            }
+            else return false;
+        }
+        else
+        {
+            return {{modelpeer}}::DoUpdate($this);
+        }
+    }
+    {{/SAVEMETHOD}}
+    
+    
+    {{DELETEMETHOD}}
+    public function delete()
+    {
+        {{modelpeer}}::DoDelete($this->getId());
+        $this->setId(null);
+    }
+    {{/DELETEMETHOD}}
+{{END}}    
+}
+?>
+{{/END}}

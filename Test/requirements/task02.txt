@@ -1,0 +1,6 @@
+1. add a field creator to project edit, issue edit screen when user has the role is administrator
+2. email notification to a new user when create this user
+3. there is only date (not time) with start date va end date in project list
+4. view project detail when click on the name of project
+5. log time for issue
+6. Client only can see their projects, their issues.

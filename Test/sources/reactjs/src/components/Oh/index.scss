@@ -1,0 +1,32 @@
+label .oh-label {
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.oh-error,
+.oh-required {
+  color: red !important;
+}
+
+.oh-tooltip {
+  font-size: 20px;
+  margin-bottom: -7px;
+  color: #a9a9a9;
+  cursor: pointer;
+}
+
+.oh-quick-add {
+  font-size: 20px;
+  margin-bottom: 3px;
+  color: #a9a9a9;
+  cursor: pointer;
+}
+
+.oh-quick-add {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.oh-form .ant-row-flex > div {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}

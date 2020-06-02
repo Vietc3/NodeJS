@@ -1,0 +1,86 @@
+<div style="width:640px; padding-top:20px">
+	<table border="0" cellspacing="0" class="border-table" style="width: 640px; text-align:center; border-radius: 10px 10px 10px 10px; border: 1px solid black;">
+		<tbody>
+			<tr>
+				<td style="width:15%;">
+					Product Code</td>
+				<td style="width:40%;">
+					Product Name</td>
+				<td style="width:5%;">
+					<span>%G_Qty%</span></td>
+				<td style="width:15%;">
+					<span>%G_LBL_LIST_PRICE%</span></td>
+				<td style="width:5%">
+					<span>%G_Discount%</span></td>
+				<td style="width:20%;border-right: none;">
+					%G_Subtotal%</td>
+			</tr>
+			<tr>
+				<td colspan="6" style="border-right: none;">
+					#PRODUCTBLOC_START#</td>
+			</tr>
+			<tr>
+				<td style="text-align: left;border-top: none;">
+					$PRODUCTS_PRODUCTNAME$</td>
+				<td style="text-align: left;border-top: none;">
+					$PRODUCTS_PRODUCTNAME$</td>
+				<td style="text-align: center;border-top: none;">
+					$PRODUCTQUANTITY$</td>
+				<td style="text-align: right ;border-top: none;">
+					$PRODUCTLISTPRICE$</td>
+				<td style="text-align: right;border-top: none;">
+					$PRODUCTDISCOUNT$</td>
+				<td style="border-right: none;border-top: none;text-align: right">
+					$PRODUCTTOTAL$</td>
+			</tr>
+			<tr>
+				<td colspan="6" style="border-right: none;border-top: none;">
+					#PRODUCTBLOC_END#</td>
+			</tr>
+			<tr>
+				<td colspan="2" rowspan="7" style="border-right: none;border-bottom: none">
+					&nbsp;</td>
+				<td colspan="3" rowspan="1" style="border-right: none;border-bottom: none;text-align: left">
+					Net Total:</td>
+				<td style="border-right:none;border-bottom: none;text-align: right">
+					$TOTALWITHOUTVAT$</td>
+			</tr>
+			<tr>
+				<td colspan="3" rowspan="1" style="border-right: none;border-bottom: none;text-align: left">
+					Discount:</td>
+				<td style="border-right:none;border-bottom: none;text-align: right">
+					$TOTALDISCOUNT$</td>
+			</tr>
+			<tr>
+				<td colspan="3" rowspan="1" style="border-right: none;border-bottom: none;text-align: left">
+					GST On Items(10 %):</td>
+				<td style="border-right:none;border-bottom: none;text-align: right">
+					&nbsp;</td>
+			</tr>
+			<tr>
+				<td colspan="3" rowspan="1" style="border-right: none;border-bottom: none;text-align: left">
+					Freight Charges:</td>
+				<td style="border-right:none;border-bottom: none;text-align: right">
+					&nbsp;</td>
+			</tr>
+			<tr>
+				<td colspan="3" rowspan="1" style="border-right: none;border-bottom: none;text-align: left">
+					GST on Freight: (10 %):</td>
+				<td style="border-right:none;border-bottom: none;text-align: right">
+					&nbsp;</td>
+			</tr>
+			<tr>
+				<td colspan="3" rowspan="1" style="border-right: none;border-bottom: none;text-align: left">
+					Adjustment:</td>
+				<td style="border-right:none;border-bottom: none;text-align: right">
+					$ADJUSTMENT$</td>
+			</tr>
+			<tr>
+				<td colspan="3" rowspan="1" style="border-bottom: none;border-right: none;text-align: left">
+					Grand Total Including GST:(in $)</td>
+				<td style="border-bottom: none;border-right: none;text-align: right">
+					$TOTAL$</td>
+			</tr>
+		</tbody>
+	</table>
+</div>

@@ -1,0 +1,516 @@
+@import url("https://fonts.googleapis.com/css?family=Fredoka+One");
+
+input[type=text],
+  input[type=password],
+  select {
+    width: 100%;
+    padding: 0px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 35px;
+    font-size: 13px !important;
+    font-family: Verdana;
+    color: rgba(0, 0, 0, 0.54);
+  }
+
+  .form-check-label, .text-footer {
+    font-size: 13px !important;
+    font-family: Verdana;
+    color: rgba(0, 0, 0, 0.54);    
+    margin-bottom: 0px;
+    margin-top: 10px;
+  }
+
+  button[type=submit], button[type=button] {
+    width: 100%;
+    color: white;
+    padding: 0px 20px;
+    margin: 10px 0px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 200px;
+    background-color: #1890ff;
+    height: 32px;    
+    width: fit-content;
+  }
+
+  div {
+    padding: 2px 0px;
+  }
+
+  .row {
+    padding: 0px !important;
+  }
+
+  .btsubmit {
+    text-align: center;
+  }
+
+  .col {
+    width: 50%;
+    text-align: left;
+  }
+
+  .form {
+    text-align: center;
+    padding: 20px !important;
+    display: inline-block;
+    background-color: white;
+    z-index: 2;
+    position: relative;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 100%;
+    border-radius: 10px 10px 10px 10px;
+  }
+
+  .body {
+    text-align: center;
+    margin: 0%;
+  }
+
+  .g-recaptcha div{
+    width: 100% !important;
+  }
+
+  .div-image {
+    position: fixed;
+    padding: 0;
+    width:100%;
+    height: 100%;
+  }
+
+  .styleTitleRegisterStore {
+    font-weight: bold;
+    font-size: 18px;
+    word-break: "break-all";
+    font-family: Verdana;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.styleContentRegisterStore {
+    font-weight: 20;
+    font-size: 14px;
+    word-break: "break-all";
+    font-family: Verdana;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.styleTitleRegisterStoreSuccess {
+  font-weight: bold;
+  font-size: 18px;
+  word-break: "break-all";
+  font-family: Verdana;
+  color: #1890ff;
+}
+
+.styleTitleRegisterStoreError {
+  font-weight: bold;
+  font-size: 16px;
+  word-break: "break-all";
+  font-family: Verdana;
+  color:  rgba(0, 0, 0, 0.54);;
+}
+
+
+.labelLeft {
+  text-align: right;
+  font-size: 13px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgba(0, 0, 0, 0.54);
+  width: fit-content;
+}
+
+.labelRight {
+  text-align: left;
+  font-size: 13px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #1890ff;
+  width: fit-content;
+}
+
+.labelError {
+  text-align: left;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:  #dc3545;
+  width: fit-content;
+}
+
+.bg-image {
+  width: 100%; 
+  height: 100%; 
+  filter: brightness(0.5);
+}
+
+.bg-image-small {
+  height: 100%; 
+  filter: brightness(0.5);
+}
+
+.footer_copyright {
+  font-size: 14px;
+  font-family: Verdana;
+  color: white;   
+}
+
+.div-checkbox {
+  text-align: left;
+  display: block;
+  position: relative;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.div-checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.div-checkbox label {
+  padding-left: 30px;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  border: 1px solid #ccc;
+  top: 10px;
+}
+
+/* On mouse-over, add a grey background color */
+.div-checkbox:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.div-checkbox input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.div-checkbox input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.div-checkbox .checkmark:after {
+  left: 7px !important;
+  display: none;
+  top: 4px !important;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* bắt đầu hình loading */
+
+.store-container {
+  line-height:0;
+  margin: 50px auto;
+  width: 90%;
+  z-index: 2;
+  display: inline-block;
+  position: relative;
+  max-width: 450px;
+}
+.stroke {
+  stroke: #0170bb;
+  stroke-width: 5;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+.round-end {
+  stroke-linecap: round;
+}
+#store {
+  animation: fadeIn 0.8s ease-in;
+}
+.border-animation {
+  background-color: white;
+  border-radius: 10px;
+  position: relative;
+}
+.border-animation:after {
+  content: "";
+  background: linear-gradient(45deg, #ccc 48.9%, #0170bb 49%);
+  background-size: 300% 300%;
+  border-radius: 10px;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  height: calc(100% + 10px);
+  width: calc(100% + 10px);
+  z-index: -1;
+  animation: borderGradient 8s linear both infinite;
+}
+@keyframes borderGradient {
+  0%,
+  100% {
+    background-position: 0% 100%;
+  }
+  50% {
+    background-position: 100% 0%;
+  }
+}
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+#browser {
+  transform: translateY(-100%);
+  -webkit-animation: moveDown 1.5s cubic-bezier(0.77, -0.5, 0.3, 1.5) forwards;
+  animation: moveDown 1.5s cubic-bezier(0.77, -0.5, 0.3, 1.5) forwards;
+}
+@keyframes moveDown {
+  from {
+    transform: translate(0, -100%);
+  }
+  to {
+    transform: translate(0, 0);
+  }
+}
+#toldo {
+  animation: fadeIn 1s 1.4s ease-in forwards;
+}
+.grass {
+  animation: fadeIn 0.5s 1.6s ease-in forwards;
+}
+#window {
+  animation: fadeIn 0.5s 1.8s ease-in forwards;
+}
+#door {
+  animation: fadeIn 0.5s 2s ease-in forwards;
+}
+#sign {
+  transform-origin: 837px 597px;
+  animation: pendulum 1.5s 2s ease-in-out alternate;
+}
+.trees {
+  animation: fadeIn 0.5s 2.2s ease-in forwards;
+}
+#toldo,
+.grass,
+#window,
+#door,
+.trees,
+.cat,
+.cat-shadow,
+.box,
+.parachute,
+.tshirt,
+.cap,
+.ball,
+#text,
+#button,
+.sky-circle,
+.sky-circle2,
+.sky-circle3 {
+  opacity: 0;
+}
+@keyframes pendulum {
+  20% {
+    transform: rotate(60deg);
+  }
+  40% {
+    transform: rotate(-40deg);
+  }
+  60% {
+    transform: rotate(20deg);
+  }
+  80% {
+    transform: rotate(-5deg);
+  }
+}
+.cat {
+  transform-origin: 1145px 620px;
+}
+.cat-shadow {
+  transform-origin: 1115px 625px;
+}
+#store:hover .cat {
+  animation: catHi 3s 3s cubic-bezier(0.7, -0.5, 0.3, 1.4);
+}
+#store:hover .cat-shadow {
+  animation: catShadow 4s 2s cubic-bezier(0.7, -0.5, 0.3, 1.4) alternate;
+}
+@keyframes catHi {
+  0%,
+  100% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  10%,
+  60% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes catShadow {
+  0%,
+  100% {
+    transform: translate(40px, -35px) scale(0.3);
+  }
+  10%,
+  60% {
+    opacity: 1;
+    transform: translate(-5px, 10px) scale(0.5);
+  }
+  60% {
+    opacity: 0;
+  }
+}
+.box,
+.parachute {
+  transform-origin: 430px 100px;
+  animation: moveBox 14s 4s linear forwards infinite;
+}
+.parachute {
+  animation: parachute 14s 4s linear forwards infinite;
+}
+@keyframes moveBox {
+  0% {
+    opacity: 0;
+    transform: translate(0, -150px) rotate(20deg);
+  }
+  15% {
+    opacity: 1;
+    transform: translate(0, 100px) rotate(-15deg);
+  }
+  25% {
+    transform: translate(0, 250px) rotate(10deg);
+  }
+  30% {
+    transform: translate(0, 350px) rotate(-5deg);
+  }
+  35% {
+    opacity: 1;
+    transform: translate(0, 570px) rotate(0deg);
+  }
+  45%,
+  100% {
+    opacity: 0;
+    transform: translate(0, 570px);
+  }
+}
+@keyframes parachute {
+  0% {
+    transform: translate(0, -150px) rotate(20deg) scale(0.8);
+    opacity: 0;
+  }
+  15% {
+    transform: translate(0, 100px) rotate(-15deg) scale(1);
+    opacity: 1;
+  }
+  25% {
+    transform: translate(0, 250px) rotate(10deg);
+  }
+  30% {
+    transform: translate(0, 350px) rotate(-5deg);
+  }
+  33% {
+    transform: translate(0, 460px) rotate(0deg) scale(0.9);
+    opacity: 1;
+  }
+  45%,
+  100% {
+    transform: translate(0, 480px);
+    opacity: 0;
+  }
+}
+.tshirt {
+  animation: fadeInOut 42s 10s ease-in forwards infinite;
+}
+.cap {
+  animation: fadeInOut 42s 24s ease-in forwards infinite;
+}
+.ball {
+  animation: fadeInOut 42s 38s ease-in forwards infinite;
+}
+#text,
+#button {
+  animation: fadeIn 1s 5s ease-in forwards;
+}
+@keyframes fadeInOut {
+  5%,
+  12% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 0;
+  }
+}
+.cloud {
+  animation: clouds 50s linear backwards infinite;
+}
+.cloud2 {
+  animation: clouds 40s 40s linear backwards infinite;
+}
+.plane {
+  animation: clouds 20s linear backwards infinite;
+  will-change: transform;
+}
+@keyframes clouds {
+  from {
+    transform: translate(-150%, 0);
+  }
+  to {
+    transform: translate(150%, 0);
+  }
+}
+.sky-circle {
+  animation: fadeInOut 10s 5s ease-in infinite;
+}
+.sky-circle2 {
+  animation: fadeInOut 12s 30s ease-in infinite;
+}
+.sky-circle3 {
+  animation: fadeInOut 8s 40s ease-in infinite;
+}
+.border-animation .text-table {
+  display: table;
+  width: 100%;
+  height: 10%;
+  float: left;
+  z-index: 1;
+  position: absolute;
+}
+
+.border-animation .text-table .text-loading {
+  color: #0170BB;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  background: none;
+  font-size: 15px !important;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* kết thúc hình loading */

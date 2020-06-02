@@ -1,0 +1,67 @@
+{{BEGIN}}
+<?php
+
+class Auto{{obj_FirstUp}}Action  extends Controller
+{
+
+{{/BEGIN}}
+{{EXECUTE_LIST}}
+    public function executeList() 
+    {
+        $this->{{list_objs}} = {{peer_obj}}::RetrieveAll();
+        $this->message = Session::get(SESSION_MESSAGE);
+        Session::destroy(SESSION_MESSAGE);
+    }
+
+{{/EXECUTE_LIST}}
+{{EXECUTE_EDIT_BEGIN}}
+    public function executeEdit() 
+    {
+        $id = $_REQUEST['id'];
+        $this->{{obj}} = {{peer_obj}}::RetrieveById($id);
+        
+        if (!$this->{{obj}}) {
+            $this->{{obj}} = new {{obj_FirstUp}}();
+            $this->title = "Create";
+        } else {
+            $this->title = "Edit";
+        }
+
+        if ($_SERVER['REQUEST_METHOD'] == 'POST') 
+        {
+ 
+{{/EXECUTE_EDIT_BEGIN}}
+{{EXECUTE_EDIT_SET}}
+            $this->{{obj}}->set{{property_firstUp}}($_POST['{{property}}']);
+{{/EXECUTE_EDIT_SET}}  
+{{EXECUTE_EDIT_SAVE}}
+            if ($this->{{obj}}->save())
+            {
+                Session::set(SESSION_MESSAGE, '<div class="notice success "><span><strong>Success:</strong>Save successfully</span></div>');
+                redirect(link_to ('{{module}}/list'));
+            }
+            else
+            {
+                Session::set(SESSION_MESSAGE, '<div class="notice error "><span><strong>Error:</strong>Can not save</span></div>');
+            }
+        }
+    }
+{{/EXECUTE_EDIT_SAVE}}
+{{EXECUTE_EDIT_DELETE}}
+
+    public function executeDelete() 
+    {
+        $id = $_REQUEST['id'];
+        $delete = {{peer_obj}}::DoDelete($id);
+        if (!$delete) {
+            Session::set(SESSION_MESSAGE, "<div class=\"notice error \"><span><strong>Error:</strong>" . _('Delete {{obj_FirstUp}} Incorrect.') . "</span></div>");
+        } else {
+            Session::set(SESSION_MESSAGE, "<div class=\"notice success \"><span><strong>Success:</strong>" . _('Delete {{obj_FirstUp}} Correct.') . "</span></div>");
+        }
+        redirect(link_to('{{module}}/list'));
+    }
+
+}
+
+?>
+{{/EXECUTE_EDIT_DELETE}}

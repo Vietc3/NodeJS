@@ -1,0 +1,62 @@
+{{BEGIN}}
+<div class="row">
+    <div class="span7">
+        <h2>Manage {{list_objs_FirstUp}}</h2>
+    </div>
+    <div align="right"  class="span5">
+        <a class="btn btn-success" href="<?php echo link_to("{{module}}/edit"); ?>">
+            <i class="icon-plus-sign icon-white"></i> New {{list_objs_FirstUp}}
+        </a>
+    </div>
+</div>
+<div class="row">
+   <div class="panel-wrapper">
+      <div class="panel">
+         <div class="title">
+            <h4>{{list_objs_FirstUp}}</h4>
+         </div>
+         <div class="content">    
+        <table id="sample-table-sortable" class="table table-bordered table-condensed sortable resizable">
+            <thead>
+                <tr>
+{{/BEGIN}}
+{{TH_TITLE}}
+   
+                    <th>{{property}}</th>
+                 
+{{/TH_TITLE}}
+{{BODY}}
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <?php
+                foreach ($this->{{list_objs}} as ${{list_obj}}) {
+                    echo "<tr>";
+{{/BODY}}
+{{PROPERTY_VALUE}}
+                    echo "<td>" . ${{list_obj}}->get{{property}}() . "</td>";
+{{/PROPERTY_VALUE}} 
+{{END}}
+
+                    echo 
+                    "<td>
+                        <a href='". link_to('{{module}}/edit?id='.${{list_obj}}->getId()). "'>
+                            <img src='".href_to('templates/quickadmin/_layout/images/icons/icon-edit.png'). "'/>
+                        </a>
+                        <a href='". link_to('{{module}}/delete?id='.${{list_obj}}->getId()). "' onclick='return confirm(\"Are you sure you want to delete?\");' >
+                            <img src='".href_to('templates/quickadmin/_layout/images/icons/icon-delete.png')."'/>
+                        </a>
+                        
+                    </td>";
+                    echo "</tr>";
+                }
+                ?>
+            </tbody>
+        </table>
+         </div>
+      </div>
+      <div class="shadow"></div>
+   </div>
+</div>
+{{/END}}

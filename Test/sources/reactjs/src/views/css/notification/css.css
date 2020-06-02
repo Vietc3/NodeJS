@@ -1,0 +1,66 @@
+.notification-success-character {
+    color: white;
+    margin-bottom: 15px !important;
+}
+.notification-success-style { 
+    min-width: 300px;
+    width: max-content;
+    float: right;
+    color: white;
+    background: #1890ff !important;
+    
+}
+.notification-success-icon {
+    color: white !important;
+    
+}
+.notification-success-icon svg {
+    margin-bottom: 8px !important;
+    
+}
+
+.anticon.ant-notification-notice-icon-success {
+    color: white !important;
+}
+
+.notification-error-character {
+    color: white;
+    font-size: 15px;
+}
+.notification-error-style { 
+    min-width: 300px;
+    width: max-content;
+    float: right;
+    color: white;
+    background: #ff4d4f !important;
+    
+    
+}
+.notification-error-icon {
+    color: white !important;
+}
+
+.notification-error-icon svg {
+    margin-bottom: 8px !important;
+    
+}
+.anticon.ant-notification-notice-icon-error {
+    color: white !important;
+}
+/*Notification css**/
+/* .notification-error-style svg {
+    display: none;
+} */
+.ant-notification-notice {
+    padding: 10px 20px !important;
+}
+a.ant-notification-notice-close > i.ant-notification-close-icon > svg{
+    display: none;
+}
+
+.notification-error-style > a.ant-notification-notice-close > span > i > svg ,
+.notification-success-style > a.ant-notification-notice-close > span > i > svg
+ {
+    height: 30px;
+    padding-bottom: 15px;
+}

@@ -1,0 +1,20 @@
+.ProductGroup-ListItem:hover {
+	background-color: #eee;
+	cursor: pointer;
+}
+
+.ProductGroup-ListItem {
+	padding: 0px 10px !important;
+	z-index: 100;
+}
+.stocktake-list tr {
+	cursor: pointer;
+}
+
+/* .stocktake-list .ant-table-expanded-row { */
+	/* display: none; */
+/* } */
+
+/* .stocktake-list .ant-table-row-expand-icon-cell, .stocktake-list .ant-table-expand-icon-th { */
+	/* display: none; */
+/* } */

@@ -1,0 +1,1304 @@
+
+@import 'paginationMobiview/pagi.css';
+@import 'ant-design/css.css';
+@import 'ImportExport/css.css';
+@import 'StockTake/css.css';
+@import 'notification/css.css';
+@import 'container-bootstrap/css.css';
+@import 'validation/css.css';
+@import 'react-grid-system/css.css';
+@import 'SalesCounter/css.css';
+@import 'loading.css';
+@import 'fixbug.css';
+
+/* .FormIssue .Transfer{
+  margin-top: 10px;
+} */
+.MuiGrid-root .Watchers label{
+  float: left;
+}
+.tinyEditor .tox-tinymce{
+  margin-top: 10px;
+}
+.briefSummary{
+  width: 300px;
+  border-radius: 5px;
+  text-align: center;
+  background: gray;
+  color: yellow;
+  padding: 5px 2px 5px 2px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.briefSummary p{
+  font-size: 1rem;
+  margin-bottom: 0px !important;
+}
+/* Form Issue */
+.watcherWrapper{
+  border: 1px dashed gray;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: rgb(236, 236, 236);
+}
+.watcherSelectBox{
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 5px;
+  background-color: white;
+  height: 170px; 
+  overflow-y: auto
+}
+.watcherSearchSelect{
+  width: 75%;
+  float: right;
+}
+.watcherSearchSelect input{
+  height: 30px;
+}
+.watcherCheckboxAll{
+  float: left;
+  margin-top: 5px;
+  width: 20px;
+  height: 20px;
+}
+.watcherCheckboxSingle{
+  margin-top: 5px;
+  width: 20px;
+  height: 20px;
+}
+.watcherCheckboxAllTag{
+  display: inline-block;
+  margin-top: 5px;
+  font-weight: bold;
+  font-style: italic;
+}
+.watcherCheckboxSingleTag{
+  display: inline-block;
+}
+/* Create User */
+.RoleRadio{
+  width: 100%;
+  padding-top: 5px;
+  margin-bottom: 30px; 
+}
+.RoleRadio > div:nth-child(1){
+  display: block;
+  height: 20px;
+  margin-top: 20px;
+}
+.RoleRadio > div:nth-child(1) label{
+  padding: 0px;
+  float: left;
+}
+.RoleRadio div{
+  display: inline-block;
+}
+.RoleRadio div:nth-child(2) > div{
+  width: 170px;
+}
+.CustomModal.createUser .ant-modal-body .footer{
+  width: 226px;
+  margin: auto;
+  margin-top: 20px;
+}
+@media all and (max-width: 600px){
+  .RoleRadio div:nth-child(2) > div{
+    width: 50%;
+  }
+  .CustomModal.createUser .ant-modal-body{
+    height: 100%;
+  }
+  .CustomModal.createUser .ant-modal-body .footer{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    padding-left: 30%;
+    background-color: white;
+  }
+}
+/* For Admin Navbar */
+.customAvatar > div:nth-child(3){
+  width: 100px;
+}
+.customAvatar > div:nth-child(3) button{
+  width: 100px;
+}
+.customAvatar > div:nth-child(3) span div:nth-child(2){
+  display: inline-block;
+}
+.customAvatar > div:nth-child(3) span div:nth-child(2) span{
+  display: inline-block;
+  padding-left: 5px;
+}
+@media all and (max-width: 600px){
+  /* Form Issue */
+  .m_UserManagement{
+    width: 100%;
+    padding: 5px;
+  }
+  .m_UserManagement hr{
+    margin: 20px 0px 0px 0px;
+  }
+  .m_UserManagement .headerButton{
+    width: 100%;
+  }
+  .m_UserManagement .headerButton .MuiButton-root{
+    float: right;
+  }
+  
+  .searchSelect .ant-select{
+    padding: 0px;
+    width: 35% !important;
+    float: left;
+  }
+  .searchSelect .ant-select .ant-select-selection{
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border: gray;
+    background-color: gray !important;
+    color: white;
+  }
+  .searchSelect input{
+    width: 100%;
+    border-radius: 5px;
+  }
+  .searchSelect2 input{
+    width: 100%;
+    border-radius: 5px;
+  }
+  .m_UserManagement .Popover{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  .m_UserManagement .ant-pagination-options{
+    display: inline-block;
+  }
+  .Dashboard-container-4{
+    padding: 0px 3px 0px 3px !important;
+  }
+  .CustomModal{
+    margin: 0px;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: 100% !important;
+    max-height: 100% !important;
+    position: absolute;
+    top: 0px !important;
+    left: 0px;
+    padding-bottom: 0px !important;
+  }
+  .CustomModal .ant-modal-content{
+    width: 100%;
+    height: 100%;
+  }
+  .CustomModal .ant-modal-content .ant-modal-body{
+    height: 83%;
+  }
+  .CustomModal .ant-modal-content .ant-modal-footer{
+    /* padding-top: 8px; */
+    margin-bottom: 8px;
+  }
+  .CustomModal .ant-modal-content .ant-modal-body .MuiGrid-root{
+    padding: 0px;
+  }
+  .CustomModal .MuiGrid-root{
+    padding: 3px !important;
+  }
+
+  /* Project */
+  .Project{
+    margin: 0px;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: 100% !important;
+    max-height: 100% !important;
+    position: absolute;
+    top: 0px !important;
+    left: 0px;
+    padding-bottom: 0px !important;
+  }
+  .Project .ant-modal-content{
+    width: 100%;
+    height: 100%;
+  }
+  .Project .ant-modal-content .ant-modal-body{
+    height: 83%;
+  }
+  .Project .ant-modal-content .ant-modal-footer{
+    /* padding-top: 8px; */
+    margin-bottom: 8px;
+  }
+  .Project .ant-modal-content .ant-modal-body .MuiGrid-root{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+  }
+  /* .Project .MuiGrid-root{
+    padding: 3px 5px !important;
+  } */
+  /* Project */
+
+  /* Project */
+  .SortableTree .MuiGrid-root{
+    padding: 0px !important;
+  }
+  .rst__node > div:nth-child(3) .rst__rowContents{
+    min-width: 186px !important;
+    width: 186px !important;
+  }
+  .rst__node > div:nth-child(3) .rst__rowContents .rst__rowToolbar{
+    position: absolute;
+    right: 0px;
+  }
+  /* for Navbar */
+  .AdminNavbar-flex-156 > a{
+    padding-left: 0px;
+  }
+  /* For Project page */
+  .m_ProjectList button{
+    position: absolute;
+    top: -5px;
+    right: 30px;
+  }
+  .m_DeletProject .text-muted > div:nth-child(1){
+    padding-left: 90px !important;
+  }
+  /* Project/AssignRole */
+  .m_Project-AssignRole .AssignRoleAction{
+    position: relative;
+  }
+  .m_Project-AssignRole button{
+    top: 17px;
+    position: absolute;
+    right: -10px;
+  }
+  /* Assign User */
+  .add-user{
+    margin: 0px;
+    width: 100%;
+    max-width: 100%;
+    top: 0px !important;
+    height: 100%;
+    padding: 0px;
+  }
+  .add-user .ant-modal-content{
+    height: 100%;
+  }
+  .add-user .ant-modal-body{
+    height: 83%;
+    padding: 0px 2px 0px 2px;
+  }
+  .add-user .ant-modal-body .searchSelect{
+    width: 85%;
+    margin: 10px auto 10px auto;
+  }
+  .add-user .ant-modal-body .MuiGrid-root{
+    display: block;
+    width: 97%;
+    max-width: 97%;
+    margin: auto !important;
+    margin-left: -2px !important;
+  }
+  .add-user .ant-pagination-options{
+    display: inline-block !important;
+  }
+  .add-user .ant-pagination{
+    margin-bottom: 10px;
+  }
+  /* Project/AddProject */
+  .add-project .ant-modal-body{
+    height: 83%;
+    overflow: auto;
+    padding: 0px !important;
+    max-width: 100%;
+    margin: 0px !important;
+    margin: auto;
+  }
+  .add-project .ant-modal-body > .group{
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  .add-project .ant-modal-body > div{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .add-project .ant-modal-body .group{
+    margin-left: 0px;
+  }
+  .add-project .ant-modal-body .group-wrapper{
+    max-width: 100%;
+  }
+  .add-project .ant-modal-body .label{
+    display: inline-block;
+    width: 25%;
+    max-width: 25%;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .add-project .ant-modal-body .label.projectName{
+    height: 30px;
+    padding-top: 10px !important;
+    width: 35%;
+    max-width: 35%;
+  }
+  .add-project .ant-modal-body .input.projectName{
+    height: 30px;
+    width: 55%;
+    max-width: 55%;
+  }
+  .add-project .ant-modal-body .input.projectName > div{
+    padding-top: 0px;
+  }
+  .add-project .ant-modal-body .input{
+    display: inline-block;
+    width: 65%;
+    max-width: 65%;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .add-project .ant-modal-footer{
+    padding-top: 1px !important;
+  }
+  .add-project .m_TextEditor{
+    width: 100%;
+    max-width: 100%;
+  }
+  .add-project .rdtPicker{
+    left: -40%;
+  }
+}
+.CustomModal1 .ant-modal-body{
+  height: calc(85vh - 129px);
+}
+
+.ant-modal.ListInvoice{
+	top: 35px !important;
+}
+td.user_action, td.Code_Column{
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+td.user_action button{
+  padding: 2px !important
+}
+.tox-statusbar__branding{
+  display: none !important
+}
+td.Collapse_Column{
+  padding: 0px 0px 0px 5px!important;
+}
+.sketch-picker {
+  position: fixed;
+}
+.Detail_Issue_Table .MuiGrid-item{
+  border: 1px solid #eeeeee;
+}
+.Detail_Issue_Table .MuiGrid-item:hover{
+  background: #e6f7ff;
+}
+.Detail_Issue_Table .MuiGrid-item:nth-child(odd) {
+  background: #f1f1f1;
+}
+.Grid-auto.MuiGrid-grid-xs-auto, .Grid-auto.MuiGrid-grid-sm-auto, .Grid-auto.MuiGrid-grid-md-auto, .Grid-auto.MuiGrid-grid-lg-auto{
+  padding: 0px !important;
+}
+a{
+  color:"#0097d6";
+  font-weight: 400;
+}
+a:hover{
+  color: #318ce0;
+}
+
+.CusEmail .CustomInput-formControl-577{
+  margin: 0px 0px;
+  padding-top: 0px;
+}
+
+.CusEmail .ant-select{
+  padding-top: 0px
+}
+
+.CusProduct.ant-select{
+  width: 200px !important;
+}
+
+.react-datepicker-popper{
+  z-index: 2;
+}
+
+.Custom-MuiGrid-item .MuiGrid-item {
+  padding-bottom: 0px !important;
+  padding-top: 15px !important;
+}
+
+.Custom-MuiGrid-item .MuiFormLabel-root {
+  font-family: Verdana;
+  padding-top: 10px;
+}
+
+.Custom-MuiGrid-item .MuiFormControl-root {
+  padding-top: 0px;
+}
+
+.Custom-MuiGrid-item .ant-select{
+  padding-top: 0px
+}
+
+.MuiGrid-item > p {
+  margin-top: 8px;
+}
+
+.custom-expanded {
+  background-color: #d6e6f1;
+}
+.colums-backgroud {
+  background-color: #F5F6F6;
+}
+
+/* .custom-expanded-product {
+  background-color: #f1e8d7
+} */
+
+.Custom-Card{
+  box-shadow: 0 1px 4px 0 #a5a5a5 !important;
+}
+.Custom-CardBody{
+  padding-top: 0 !important;
+}
+.Custom-CardText{
+  padding: 0px 15px !important;
+  border: solid 1px #d6d6d6 !important;
+  background-color: #ffffff !important;
+}
+.ant-table-thead > tr > th.ant-table-column-has-actions.ant-table-column-has-filters .ant-table-filter-icon.ant-table-filter-open
+{
+  /* //background-color: #1F81A5 !important; */
+  color: #1F81A5!important;
+}
+.ant-table-thead > tr > th .ant-table-filter-icon > svg 
+{
+  width: 14px;
+  height: 14px;
+}
+.ant-table-thead > tr > th .ant-table-filter-icon > svg:hover
+{
+  color: #123C49;
+  width: 15px;
+  height: 15px;
+  
+}
+
+.ant-table-thead > tr > th .anticon-filter, .ant-table-thead > tr > th .ant-table-filter-icon{
+  color: #123C49;
+}
+
+.ant-table-thead > tr > th.ant-table-column-has-actions.ant-table-column-has-filters .anticon-filter.ant-table-filter-open, 
+.ant-table-thead > tr > th.ant-table-column-has-actions.ant-table-column-has-filters .ant-table-filter-icon.ant-table-filter-open {
+  color: #1F81A5;
+  
+  
+}
+/* product */
+.card-container > .ant-tabs-card > .ant-tabs-content > .ant-tabs-tabpane {
+  background: #fff;
+  padding: 16px;
+  }
+  
+  .card-container > .ant-tabs-card > .ant-tabs-bar {
+  border-color: #fff;
+  }
+  
+  .card-container > .ant-tabs-card > .ant-tabs-bar .ant-tabs-tab {
+  border-color: transparent;
+  background: transparent;
+  }
+  
+  .card-container > .ant-tabs-card > .ant-tabs-bar .ant-tabs-tab-active {
+  border-color: #fff;
+  background: #fff;
+  }
+
+  .ant-tabs {
+    overflow: visible !important;
+  }
+
+h2 > div > span, h2 > div > div > span {
+  font-size: 17px;
+}
+/* first-table */
+.ant-table-row-expand-icon {
+  width: 0px !important;
+  height: 0px !important;
+}
+.ant-table-row-expand-icon.ant-table-row-collapsed{
+width: 0px !important;
+height: 0px !important;
+border: #ffffff!important;
+}
+.ant-table-row-expand-icon.ant-table-row-collapsed::after {
+  content: ''!important;
+}
+.ant-table-row-expand-icon.ant-table-row-collapsed::before {
+  content: ''!important;
+}
+.ant-table-row-expand-icon.ant-table-row-expanded{
+  border: "node" !important;
+}
+.ant-table-row-expanded::after {
+  content: ''!important;
+}
+.ant-table-thead > tr > th.ant-table-expand-icon-th:first-child {
+  width: 0% !important;
+  height: 0% !important;
+}
+
+.ant-table-expand-icon-cell {
+  width: 0% !important;
+  height: 0% !important;
+}
+.ant-tabs-bar.ant-tabs-top-bar.ant-tabs-card-bar{
+  margin-bottom: 0px ;
+}
+.ant-tabs.ant-tabs-card .ant-tabs-card-bar .ant-tabs-nav-wrap {
+  margin-left: 30px;
+}
+.ant-tabs-tab-active.ant-tabs-tab {
+  background: #ffffff!important;
+}
+.ant-tabs-tab {
+  background: none!important;
+    border:none!important;
+}
+.ant-tabs-bar.ant-tabs-top-bar.ant-tabs-card-bar {
+  height: 30px;
+  
+}
+.ProductFormAddEdit{
+  float: left!important;
+  margin-top: 20px;
+}
+.LabelPopover {
+  float: right!important;
+  margin-top: 10px!important;
+}
+.CardPopover {
+  width: 400px !important;
+  border: 1px solid #1890ff !important;
+  margin-top: 0px;
+}
+.CardBodyPopover {
+  padding: 0;
+  margin-top: 10;
+}
+.CardDiscountPopover {
+  width: 250px !important;
+  border: 1px solid #1890ff !important;
+  margin-top: 0px;
+}
+.InputPopover {
+  width: 156px !important;
+  margin-top: 5px !important;
+  height: 29px !important;
+  text-align: right ;
+}
+.GridContentPopover {
+  margin-top: -15px !important;
+}
+.InfoFormAddEdit{
+  float: left!important;
+  margin-top: 20px;
+  margin: 0px;
+}
+.ProductFormAddCustomer{
+  margin-top: 20px;
+}
+/* upload imagre */
+.ReactModal__Overlay.ReactModal__Overlay--after-open{
+z-index: 1050 !important;
+}
+
+a:hover{
+  text-decoration: none !important;
+}
+.imageClick{
+  margin: 0 !important;
+}
+
+.select-change > .ant-select-selection.ant-select-selection--single{
+  border: 1px solid #fd7e14 !important;
+  box-shadow:none!important;
+}
+/* .ant-input-number{
+  width: 85px !important;
+} */
+/* Style Css Forms  */
+
+.InputNumber {
+  width: 120px !important;
+  margin-right: 0px !important;
+}
+.InputNumber .ant-input-number-input{
+  text-align: center !important;
+}
+.ButtomExpanded{
+
+  position: absolute !important;
+  bottom: -13px !important;
+  color: #3C4858 !important;
+  background-color: #ffff !important;
+  width: 50px !important;
+
+}
+.ButtomSuccessForm{
+
+  margin: .3125rem 2px !important; 
+  width: 100px ; 
+  margin-right: 5px !important;
+  padding: 10 !important;
+  background-color: green !important;
+  
+}
+.ButtomExitForm{
+
+  margin: .3125rem 2px !important; 
+  width: 100px !important; 
+  margin-right: 5px !important;
+  padding: 10 !important;
+  background-color: brown !important;
+  
+}
+.TitleForm{
+	font-weight: 20 ;
+	padding-left:28px;
+	font-size: 13px ;
+	color: black;
+}
+.HeaderForm{
+
+  font-weight: bold !important;
+  padding-left:28px!important;
+  font-size: 13px !important;
+  color: black!important;
+  word-break: break-all;
+}
+.HeaderForm-title{
+  font-weight: bold !important;
+  padding:25px 0px 0px 28px!important;
+  font-size: 16px !important;
+  color: black!important;
+  word-break: break-all;
+}
+.ContentForm{
+  font-weight: 20 ;
+  font-size: 13px !important;
+  color: black!important;
+}
+.ContentFormPaddingLeft{
+  padding-left:28px;
+  font-weight: 20 ;
+  font-size: 12px !important;
+    color: black!important;
+}
+.ContentFormPaddingLeftBlue{
+  padding-left:28px;
+  font-weight: 700 ;
+  font-size: 12px !important;
+  color: #007bff!important;
+}
+.ContentFormPaddingLeftRed{
+  padding-left:28px;
+  font-weight: 700 ;
+  font-size: 12px !important;
+  color: red!important;
+}
+.IconForm{
+
+  color: #A9A9A9!important;
+    cursor: pointer!important;
+    width: 20px!important;
+  height: 20px!important;
+  margin-left: 5px!important;
+    
+}
+.ImgDashBoard{
+
+  filter: brightness(0.5);
+    width: 50px!important;
+    height: 50px!important;
+    
+}
+
+
+.TitleInfoForm {
+
+  font-weight: 20 !important;
+  padding-left:0px!important;
+  font-size: 14px !important;
+    color: black!important;
+}
+.Colums{
+
+  max-width:  100 !important;
+  text-align: right;
+  font-weight: 700;
+  padding-right: 0;
+}
+
+.notification-center{
+  width: 450px;
+  display: block;
+  margin-left: 0;
+  margin-top: 0;
+  top: calc(50vh - 85px);
+  left: calc(50vw - 225px);
+}
+
+.role-label{
+
+  font-weight: bold;
+  font-size: 12px;
+  color: black !important;
+}
+
+.role-item{
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.role-item-product{
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.71);
+}
+
+.role-data{
+  font-size: 14px;
+  color: rgba(214, 214, 214, 0.71);
+}
+.dashboard-label{
+  font-weight: bold;
+    font-size: 17px;
+}
+.label-green{
+  color: green;
+}
+
+.label-red{
+  color: rgb(185, 0, 0);
+}
+
+.label-blue{
+  color: rgb(76, 76, 161);
+}
+
+.label-fontSize20{
+  font-size: 20px;
+}
+.label-fontSize15{
+  font-size: 15px;
+}
+.label-fontSize17{
+  font-size: 17px;
+}
+
+.role-title{
+
+  text-align: center;
+  font-weight: bold;
+    color: dimgray;
+    padding-left:10px;
+}
+
+.role-card{
+
+  height: 100%;
+    padding: 20px!important;
+    /* box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.14)!important; */
+}
+
+.role-Gird{
+  width: 100%;
+  padding: 5px !important;
+}
+
+.dashboard-card-first{
+  height: 100%;
+  margin-top: 0px !important;
+  padding: 2px 10px!important;
+  /* box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.14)!important; */
+}
+.dashboard-card {
+    height: 175px !important;
+    margin-top: 0px !important;
+    padding: 2px 10px!important;
+    /* box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.14)!important; */
+}
+.dashboard-card-chart{
+  margin-top: -10px !important;
+  padding: 5px 10px!important;
+  margin-right: -10px !important;
+  /* box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.14)!important; */
+  font-weight: 300 !important;
+  font-size: 19px;
+}
+
+.dashboard-card h3{
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.dashboard-card-quantity-product{
+  height: 30%;
+  max-width: 100%;
+  padding: 5px 15px!important;
+  box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.14)!important;
+}
+
+.LabelForm{
+  font-weight: 20!important;
+    font-size: 13px!important;
+    color: black!important
+}
+.Columns{
+  text-align: right;
+  font-weight: 700;
+}
+.buttonGreen {
+  width: 40px !important;
+  background-color: #1890ff !important;
+}
+.buttonGray {
+  width: 40px !important;
+}
+
+button:focus {
+	outline: unset !important;
+}
+
+.icon-export {
+  height: "20px"; 
+  width: "20px";
+}
+
+.role-item {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.best-selling-dash .role-item, .best-selling-dash .role-count {
+  color: rgba(0, 0, 0, 0.87);
+}
+.styleTitle {
+  font-weight: bold;
+  margin-left: 28px;
+  font-size: 12px;
+  color: black;
+}
+
+.styleIcon {
+  color: #A9A9A9;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+}
+.best-selling-dash > .MuiGrid-item > form > a > div {
+  height: auto
+}
+
+.best-selling-list .role-label {
+  font-weight: normal;
+  color: rgba(0, 0, 0, .65);
+  padding-left: 36px;
+}
+.role-count {
+  border-radius: 50%;
+  display: inline-block;
+  max-width: 17px;
+  position: relative;
+  height: 24px;
+  width: 20px !important;
+  padding: 0px 12px !important;
+  background-color: #314659;
+  margin-left: 10px;
+}
+.un-role-count {
+  display: inline-block;
+  max-width: 26px;
+  position: relative;
+  height: 25px;
+  width: 25px;
+  margin-left: 10px;
+}
+.ranking-item {
+  margin-top: 1px;
+  width: 100%;
+  margin-left: -12px;
+  justify-content: center;
+  position: absolute;
+  display: flex;
+  color: #fff;
+}
+.un-ranking-item {
+  width: 100%;
+  margin-left: -15px;
+  justify-content: center;
+  position: absolute;
+  display: flex;
+  color: black;
+}
+.dashboard-card > .MuiGrid-item > .MuiGrid-container > .MuiGrid-item {
+  white-space: nowrap;
+}
+.dashboard-card > .MuiGrid-item > .MuiGrid-container > .MuiGrid-item > .role-label.label-green {
+  font-size: 1.5vw;
+}
+/* images */
+.fullscreen .react-images__blanket.css-yrspe.css-1ycyyax{
+  z-index: 1050 !important;
+}
+.react-images__positioner.css-1rbq2qy.css-1ycyyax{
+  z-index: 1050;
+}
+.styleTitleRegisterStore {
+  font-weight: bold;
+  font-size: 18px;
+  word-break: "break-all";
+}
+
+.successText {
+  color: #1890ff !important;
+  font-weight: bold;
+  font-size: 18px;
+  word-break: "break-all";
+}
+
+.successTextSmall {
+  color: #1890ff !important;
+  font-weight: 20 ;
+  font-size: 14px;
+  word-break: "break-all";
+}
+
+.styleContentRegisterStore {
+	font-weight: 20 ;
+  font-size: 14px;
+  word-break: "break-all";
+}
+
+.styleContentFormLabelRegisterStore {
+  margin-top: 10px;
+}
+
+.inputRegisterStore {
+  margin-top: -50px;
+}
+
+.titleRegisterStore {
+  margin-top: 20px;
+}
+
+.alignTitleRegisterStore {
+  text-align: right;
+}
+
+.cardBodyRegisterStore {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  text-align: center;
+}
+
+.CustomerInfo {
+  width: 1300px !important;
+}
+button > a {
+  color: black;
+}
+
+.line-through {
+  text-decoration: line-through solid rgb(68, 68, 68);
+}
+.underline, .underline:hover {
+  text-decoration: underline solid currentColor !important;
+}
+.total-amount {
+  color: #007bff !important;
+}
+.link-invoice {
+  padding-left: 30px;
+  font-size: 13px !important;
+}
+
+.button-add-information {
+  width: 30px !important;
+  height: 30px !important;
+  padding-bottom: 2px !important;
+  bottom: 4px !important;
+  padding-right: 0px !important;
+  padding-left: 1px !important;
+  top: 1px !important
+}
+
+.icon-add-information {
+  margin-left: 6px !important;
+  margin-bottom: 6px !important;
+}
+
+.invoice-info-card {
+  height: 260px;
+}
+
+.ant-select-selection.ant-select-selection--single{
+  height: 32.01563px !important;
+}
+
+.tag-oh-form {
+  margin-left: 10px !important;
+}
+
+.row-invoice {
+  padding-top: 5px !important;
+}
+.row-product-sales {
+  padding-top: 18px !important;
+}
+.amount-input {
+  max-width: 200px !important;
+}
+.customer-input {
+  max-width: 44% !important;
+}
+.nameUnit-input {
+  max-width: 230px !important;
+}
+.nameType-input {
+  max-width: 300px !important;
+}
+.ant-pagination.ant-table-pagination > li > a > i > svg {
+  padding-bottom: 0px !important;
+  height: 15px !important;
+}
+
+@media print { html, body { height: initial !important; overflow: initial !important; }}
+
+.daterangepicker .ranges li.active {
+  background-color: #1890ff !important;
+  color: #fff !important;
+}
+.daterangepicker td.active, .daterangepicker td.active:hover {
+  background-color: #1890ff !important;
+  border-color: transparent !important;
+  color: #fff !important;
+}
+.MuiInput-underline::after  {
+  background-color: #1890ff !important;
+  border-bottom: 2px solid #1890ff !important ;
+}
+
+div.customAvatar > div > div > div > div > div > div > div > div.ant-popover-inner-content {
+  padding: 0 !important;
+} 
+@media (min-width: 960px){
+  .salesCounterPages {
+      width: calc(100%) !important;
+  }
+  .AdminNavbarappBar{
+    width: calc(100%) !important;
+  }
+}
+.select-change-language{
+  position: absolute !important;
+  top: 15px;
+  right: 22px;
+  width: 72px !important;
+}
+
+.TitleReport{
+  float: left!important;
+  margin-top: 10px;
+}
+
+.GridItemReport{
+  padding: 0 0 0 0 !important;
+}
+
+.LableAmountReport{
+  font-weight: bold;
+  text-align: center;
+}
+
+.AmountReport{
+  font-weight: 700;
+  text-align: center;
+  color: #007bff !important;
+}
+.reportIncExpTypeSelect.ant-select{
+  width: 160px !important;
+}
+
+.reportSelect.ant-select{
+  width: 150px !important;
+}
+
+@media(min-width: 1280px) {
+  
+  .reportIncExpTypeSelect.ant-select{
+    width: 230px !important;
+  }
+  
+  .reportSelect.ant-select{
+    width: 200px !important;
+  }
+}
+
+.barCode{
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gridItemReport.MuiGrid-root{
+  padding-top: 0px !important;
+  padding-left: 0px !important;
+  padding-bottom: 20px !important;
+  padding-right: 0px !important;
+}
+
+.gridItemReportLeft.MuiGrid-root{
+  padding-right: 10px !important;
+  padding-top: 0px !important;
+  padding-left: 0px !important;
+  padding-bottom: 20px !important;
+}
+
+@media(max-width: 768px){
+  .gridItemReportLeft.MuiGrid-root{
+    padding-right: 0px !important;
+    padding-top: 0px !important;
+    padding-left: 0px !important;
+    padding-bottom: 10px !important;
+  }
+}
+
+.formula-table {
+  min-height: 200px !important;
+}
+
+.clickRowStyle{
+  background-color: #79beff;
+  cursor: pointer;
+
+}
+.ant-table-tbody>.clickRowStyle:active>td{
+  background-color: #79beff;
+  cursor: pointer;
+
+}
+
+.ant-table-tbody>.blurRowOhTable>td{
+  color: #6c757d;
+  cursor: pointer;
+}
+.ant-table-tbody>.rowOhTable>td{
+  cursor: pointer;
+}
+
+.ant-tooltip-inner{
+  font-weight: normal;
+  width: fit-content;
+}
+
+.number-width{
+  min-width: 50 !important;
+}
+.ant-tabs-bar.ant-tabs-top-bar{
+margin-bottom: 0px;
+}
+.branch_title{
+  font-size: 14px;
+  font-weight: 500;
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline-block;
+  text-align: center;
+}
+.gridItemNoPadding.MuiGrid-root{
+  padding-top: 0px !important;
+  padding-left: 0px !important;
+  padding-bottom: 0px !important;
+  padding-right: 0px !important;
+}
+
+.checkbox-register-store {
+  text-align: left !important;
+}
+
+.select-material .MuiSelect-select.MuiInputBase-input.MuiInput-input{
+  height: 18px !important;
+}
+
+.stock-select {
+  text-align: left !important;
+}
+
+.product-search-filter{
+  float: right !important;
+  width: calc(100% - 60px);
+}
+.button-product-check-view{
+  max-width: 45px !important;
+  float: left!important;
+}
+.div-product-check-view{
+  width: 60px !important;
+  float: left!important;
+}
+
+.table-product-type-view .ant-table-expand-icon-col{
+  width: 45px !important;
+  height: 25px !important;
+}
+.product-table-view .ant-table-expand-icon-col{
+  width: 0% !important;
+  height: 0% !important;
+}
+.finished-estimates{
+  color: #1890ff;
+}
+.finished-estimates:hover{
+  color: #1890ff;
+  text-decoration: underline;
+}
+
+.li-drop-down{
+  padding: 12px 16px;
+}
+
+.dropdown-menu-action > li{
+  padding: 0px !important;
+}
+ .fullPage_1{
+  background-image: unset !important;
+  background-color: #eee !important;
+}
+
+.lds-ring{
+  display: none !important;
+}
+.stock-tooltip{
+  position: absolute !important;
+  float: right !important;
+  top: 5px;
+  right: 15px;
+  width: 20px !important;
+}
+
+

@@ -1,0 +1,187 @@
+{{BEGIN}}
+<?php
+class {{peermodel}}
+{
+    const TABLE_NAME = '{{tablename}}';
+    
+{{/BEGIN}}
+{{CONST_VARIABLE}}
+    const {{variable_upper}} = '{{property}}';
+{{/CONST_VARIABLE}}
+
+{{PROPERTY_NAME_METHOD}}
+    protected static $propertyNames = array({{arr_property}});
+{{/PROPERTY_NAME_METHOD}}
+
+{{COL_NAME_METHOD}}
+    protected static $colNames = array({{arr_const}});    
+{{/COL_NAME_METHOD}}
+
+
+{{ASSIGN_PROPERTY_METHOD}}
+    protected static function AssignProperty(${{auto_table_lower}}, $row)
+    {
+        foreach ($row as $key => $value)
+        {
+            foreach ({{peermodel}}::$colNames as $id => $colName)
+            {
+                if ($key == $colName)
+                {
+                    $method = 'set' . {{peermodel}}::$propertyNames[$id];
+                    ${{auto_table_lower}}->{$method}($value);
+                }
+            }
+        }
+        return ${{auto_table_lower}};
+    }    
+{{/ASSIGN_PROPERTY_METHOD}}
+
+{{DO_INSERT_METHOD}}
+    public static function DoInsert(${{auto_table_lower}})
+    {
+        $sql = "INSERT INTO ". {{peermodel}}::TABLE_NAME ;
+        $sql .= " ( "; 
+        foreach ( {{peermodel}}::$colNames as $colname)
+        {
+            if (strtolower($colname) != 'id')
+                        $sql .= $colname.',';
+        }
+        $sql = substr($sql, 0, strlen($sql) - 1);
+        $sql .= ') VALUES (';
+        foreach ({{peermodel}}::$propertyNames as $property)
+        {
+            if (strtolower($property) != 'id')
+            {
+                $sql .= "'";
+                $method = "get{$property}";
+                $sql .= addslashes( ${{auto_table_lower}}->{$method}() );
+                $sql .= "',";
+
+            }
+        }
+        $sql = substr($sql, 0, strlen($sql) - 1);
+        $sql .= ")";
+        $result = Database::query($sql);
+        return $result;
+    }    
+{{/DO_INSERT_METHOD}}
+
+{{DO_UPDATE_METHOD}}
+    public static function DoUpdate(${{auto_table_lower}})
+    {
+        $sql = "UPDATE " . {{peermodel}}::TABLE_NAME ;
+        $sql .= " SET ";
+        foreach ({{peermodel}}::$colNames as $key=>$colname)
+        {
+            if (strtolower($colname) != 'id')
+            {
+                $sql .= $colname."='";
+                $method = "get".{{peermodel}}::$propertyNames[$key];
+                $sql .= addslashes( ${{auto_table_lower}}->{$method}() );
+                $sql .= "',";
+            }
+        }
+        $sql = substr($sql, 0, strlen($sql) - 1);
+        $sql .= " WHERE id = '" . ${{auto_table_lower}}->getId() . "'";
+        $result = Database::query($sql);
+        return $result;
+    }    
+{{/DO_UPDATE_METHOD}}
+
+{{DO_DELETE_METHOD}}
+    public static function DoDelete($id)
+    {
+        $sql = "DELETE FROM " . {{peermodel}}::TABLE_NAME . " WHERE id = '". $id . "'";
+        return $result = Database::query($sql);
+    }    
+{{/DO_DELETE_METHOD}}
+
+{{GET_INSERTID_METHOD}}
+    public static function GetInsertId()
+    {
+        return Database::GetInsertId();
+    }    
+{{/GET_INSERTID_METHOD}}
+
+{{RETRIEVE_PRIMARY_METHOD}}
+    public static function RetrieveBy{{property_FirstUpper}}(${{property_lower}})
+    {
+        $sql = "Select * from ". {{peermodel}}::TABLE_NAME ." where {{property}}='${{property_lower}}' limit 1";
+        $sth = Database::prepare($sql);
+        if (!$sth) return null;      
+        if ($sth->rowCount() == 0) return null;
+        $row = $sth->fetch(PDO::FETCH_ASSOC);
+        if ($row == null)
+                return null;
+        ${{auto_table_lower}} = new {{auto_table}}();
+        ${{auto_table_lower}} = {{peermodel}}::AssignProperty(${{auto_table_lower}}, $row);
+        return ${{auto_table_lower}};
+    }
+{{/RETRIEVE_PRIMARY_METHOD}}
+
+{{RETRIEVE_UNIQUE_METHOD}}
+    public static function RetrieveBy{{property_FirstUpper}}(${{property_lower}})
+    {
+        $sql = "Select * from ". {{peermodel}}::TABLE_NAME ." where {{property}}='${{property_lower}}' limit 1";
+        $sth = Database::prepare($sql);
+        if (!$sth) return null;      
+        if ($sth->rowCount() == 0) return null;
+        $row = $sth->fetch(PDO::FETCH_ASSOC);
+        if ($row == null)
+                return null;
+        ${{auto_table_lower}} = new {{auto_table}}();
+        ${{auto_table_lower}} = {{peermodel}}::AssignProperty(${{auto_table_lower}}, $row);
+        return ${{auto_table_lower}};
+    }
+{{/RETRIEVE_UNIQUE_METHOD}}
+
+{{RETRIEVE_COLUMNS_METHOD}}
+    public static function RetrieveBy{{property_FirstUpper}}(${{property_lower}})
+    {
+        $sql = "select * from ".{{peermodel}}::TABLE_NAME." where {{property}} ='".${{property_lower}}. "'";
+        $sth = Database::prepare($sql);
+        if (!$sth) return array();      
+        if ($sth->rowCount() == 0) return array();
+        $list = array();
+        while ($row = $sth->fetch(PDO::FETCH_ASSOC))
+        {
+            ${{auto_table_lower}} = new {{auto_table}}();
+            ${{auto_table_lower}} = {{peermodel}}::AssignProperty(${{auto_table_lower}}, $row);
+            $list[] = ${{auto_table_lower}};
+        }
+        return $list;
+    }    
+{{/RETRIEVE_COLUMNS_METHOD}}
+
+{{RETRIEVE_ALL_METHOD}}
+    public static function RetrieveAll() 
+    {
+        $sql = "Select * from " . {{peermodel}}::TABLE_NAME . " ORDER BY id DESC";
+        $sth = Database::prepare($sql);
+        if (!$sth) return array();      
+        if ($sth->rowCount() == 0) return array();
+        $list = array();
+        while ($row = $sth->fetch(PDO::FETCH_ASSOC))
+        {
+            ${{auto_table_lower}} = new {{auto_table}}();
+            ${{auto_table_lower}} = {{peermodel}}::AssignProperty(${{auto_table_lower}}, $row);
+            $list[] = ${{auto_table_lower}};
+        }
+        return $list;
+    }
+    
+{{/RETRIEVE_ALL_METHOD}}
+
+{{RETRIEVE_COUNT_METHOD}}
+    public static function RetrieveCount()
+    {
+        $sql    = "SELECT * FROM " . {{peermodel}}::TABLE_NAME;
+        $sth = Database::prepare($sql);
+        if (!$sth) return 0;      
+        return $sth->rowCount();
+    }
+{{/RETRIEVE_COUNT_METHOD}}
+
+{{END}}
+}
+{{/END}}

@@ -1,0 +1,39 @@
+{{BEGIN}}
+<?php
+
+${{obj}} = $this->{{obj}};
+?>
+<div class="row">
+   <div class="panel-wrapper">
+      <div class="panel">
+         <div class="title">
+            <h4><?php _e($this->title . ' {{obj_FirstUp}}'); ?></h4>
+         </div>
+         <div class="content">  
+            <form class="" method="post"  action="edit" id="{{obj}}-form">  
+               {{/BEGIN}}
+               {{FIELD}}
+               <div class="group fixed">
+                  <label class="control-label" style="{{label}}" for="{{property_lower}}"><?php _e('{{property_FirstUp}}'); ?></label>
+                  <div class="controls">
+
+                     <input type="{{text_input}}" class="input-xlarge" id="{{property_lower}}" name="{{property_lower}}" value="<?php echo ${{obj}}->get{{property_FirstUp}}() ?>" placeholder="{{obj_FirstUp}} {{property_FirstUp}}"/>
+                  </div>
+               </div>
+               {{/FIELD}}
+               {{END}}
+
+               <div class="form-actions">
+                  <button  class="btn button-blue">
+<?php _e('Save changes'); ?>
+                  </button>
+                  <a href="list"><input type="button" class="btn button-white" value="<?php _e('Cancel'); ?>"/></a>
+               </div>
+            </form>
+         </div>
+      </div>
+      <div class="shadow"></div>
+   </div>
+</div>
+{{/END}}
+

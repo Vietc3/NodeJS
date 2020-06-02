@@ -1,0 +1,16 @@
+1. When we create any entity we will have a title is "Creat ..." and button title should be Create
+2. When we edit any entity we will have a title is "Edit ..." and button title should be Save Changes
+3. There are many problems in the project edit screen: title of field, etc..
+4. The search modal window just shows close button when we move over it.
+5. Change icon on the top navigation menu for project, issue
+6. "Welcome, emailaddress" -> "Welcome Fullname" in the top of the page
+5. Make the size of the top navigation menu look better, Now it is big.
+6. List Issues of projectname: project name should be bold
+7. 2 seperate lines of the user top navigation menu are not correct.
+8. We should discuss to give an good idea about parent issue.
+9. There are many problems in the issue edit screen, need to discuss
+10. When creating a new issue, just input the name and description then save. The system runs too slowly. Need to test and fix again.
+11. The nofification sentence should be changed. For example: Save issue successfully. no need to say Success:. Also change all the same notification sentences.
+12. Each type of issue should have its own color. Say: bug should be red, task should be green, etc...
+13. In the issue preview page, it should have 3 columns for issue information
+14. Change font for table grid.

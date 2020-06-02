@@ -1,0 +1,16 @@
+<div>
+    <h3><a target="_blank" href="{{project_link}}">Project: {{project_name}}</a></h3>
+    <a target="_blank" href="{{link}}">{{type_name}} #{{code}}: {{issue_name}}</a> has been updated by {{modifier}}
+    <ul>
+        {{IF_ISSET_STATEMENT}}{{name}}<li><strong>Name</strong> changed from <i> {{name_before}} </i> to <i> {{name_after}} </i></li>{{END_STATEMENT}}
+        {{IF_ISSET_STATEMENT}}{{description}}<li><strong>Description</strong> changed.</li>{{END_STATEMENT}}
+        {{IF_ISSET_STATEMENT}}{{type}}<li><strong>Type</strong> changed from <i> {{type_before}} </i> to <i> {{type_after}} </i></li>{{END_STATEMENT}}
+        {{IF_ISSET_STATEMENT}}{{status}}<li><strong>Status</strong> changed from <i> {{status_before}} </i> to <i> {{status_after}} </i></li>{{END_STATEMENT}}
+        {{IF_ISSET_STATEMENT}}{{assignee}}<li><strong>Assignee</strong> changed from <i> {{assignee_before}} </i> to <i> {{assignee_after}} </i></li>{{END_STATEMENT}}
+        {{IF_ISSET_STATEMENT}}{{priority}}<li><strong>Priority</strong> changed from <i> {{priority_before}} </i> to <i> {{priority_after}} </i></li>{{END_STATEMENT}}
+        {{IF_ISSET_STATEMENT}}{{start_date}}<li><strong>Start date</strong> changed from <i> {{start_date_before}} </i> to <i> {{start_date_after}} </i></li>{{END_STATEMENT}}
+        {{IF_ISSET_STATEMENT}}{{end_date}}<li><strong>End date</strong> changed from <i> {{end_date_before}} </i> to <i> {{end_date_after}} </i></li>{{END_STATEMENT}}
+        {{IF_ISSET_STATEMENT}}{{complete_percent}}<li><strong>Completed</strong> changed from <i> {{complete_percent_before}} </i> to <i> {{complete_percent_after}} </i></li>{{END_STATEMENT}}
+        {{IF_ISSET_STATEMENT}}{{comment}}<li><strong>Comment: </strong> <i> {{comment}} </i></li>{{END_STATEMENT}}
+    </ul>
+</div>

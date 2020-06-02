@@ -1,0 +1,21 @@
+module.exports.cardcode = {
+    product: 'SP',
+    invoiceFirstCode: 'DH',
+    importCardFirstCode: "NH",
+    invoiceReturnFirstCode: 'TH',
+    stockCheckCardFirstCode: 'KK',
+    hyphen: "-",
+    customerFirstCode: 'KH',
+    providerFirstCode: "NCC",
+    debtFirstCode: 'CN',
+    importReturnFirstCode: 'THN',
+    exportFirstCode: 'XK',
+    incomeFirstCode: 'PT',
+    expenseFirstCode: 'PC',
+    depositFirstCode: 'KG',
+    exportCardFirstCode: 'PX',
+    manufacturingCardFirstCode: 'SX',
+    moveStockFirstCode: 'CH',
+    importOrderCardFirstCode: 'DDH',
+    invoiceOrderCardFirstCode: 'DDH'
+  };

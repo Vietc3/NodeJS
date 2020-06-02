@@ -1,0 +1,18 @@
+.span7 {
+   float: none;
+   width: 650px;
+   margin-left: 0;
+}
+.input-xlarge{
+   float: none;
+   width: 210px !important;
+   height: 32px;
+   margin-left: 0;
+}
+
+.wysiwyg-textarea-small{
+   float: none;
+   width: 420px !important;
+   margin-left: 0px;
+   padding-left: 0px !important;
+}

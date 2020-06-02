@@ -1,0 +1,10 @@
+{
+    "apps": [
+        {
+            "name": "ohstore-server",
+            "script": "app.js",
+            "instances": "max",
+            "exec_mode": "cluster"
+        }
+    ]
+}

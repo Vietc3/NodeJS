@@ -1,0 +1,103 @@
+.react-grid-system-container {
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+	width: 100%;
+	max-width: unset !important;
+  padding: 0 !important;
+}
+
+.react-grid-system-container > div > div {
+	padding-left: 5px !important;
+	padding-right: 5px !important;
+}
+
+.react-grid-search-system-container {
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+	width: 100%;
+	max-width: unset !important;
+  padding: 0 !important;
+}
+
+.react-grid-search-system-container > div > div {
+	padding-left: 12px !important;
+	padding-right: 14px !important;
+}
+.MuiGrid-container  .MuiGrid-item  label.ProductFormAddEdit  b {
+	white-space: nowrap;
+}
+.best-selling-card > .best-selling-list {
+	width: fit-content;
+}
+.best-selling-card > .best-selling-list p.role-label {
+	white-space: nowrap;
+}
+.dashboard-card > div > .MuiGrid-container > div.DisplayTime, .dashboard-card > div > .MuiGrid-container > div.TypeProduct {
+	display: flex;
+    align-items: center;
+}
+.dashboard-card > div > .MuiGrid-container > div.DisplayTime > span.TitleInfoForm, .dashboard-card > div > .MuiGrid-container > div.TypeProduct >span.TitleInfoForm  {
+	padding: 5px;
+}
+div.InventoryItemGrid {
+	width: 15.8vw;
+	margin-top: -10px;
+}
+
+.InventoryItemGrid > .ant-select.ant-select-enabled > .ant-select-selection--multiple > .ant-select-selection__rendered > .ant-select-selection__placeholder {
+	font-size: 0.8vw !important;
+	margin-left: 0px;
+}
+
+.InventoryItemGrid > div > div.ant-select-selection--multiple {
+	display: flex;
+    overflow: auto;
+}
+.InventoryItemGrid > .ant-select.ant-select-enabled > .ant-select-selection--multiple > .ant-select-selection__rendered {
+	width: 100%;
+}
+
+.InventoryItemGrid > .ant-select.ant-select-enabled > .ant-select-selection--multiple > .ant-select-selection__rendered {
+	height: 41px !important;
+}
+
+.AutoCompleted-container {
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+	margin-bottom: 5px !important;
+	width: 100%;
+	max-width: unset !important;
+  	padding: 0 !important;
+}
+.sample-barcode {
+	display: inline-grid;
+}
+.sample-barcode > div.ant-radio-group-outline {
+	padding-left: 31px;
+}
+.sample-barcode > .notes {
+	padding-left: 50px;
+	color:rgba(0, 0, 0, 0.25);
+}
+.sample-barcode > .img-samle-barcode {
+	max-width: 25%;
+	padding: 10px;
+    margin-left: 30px;
+    height: auto;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+}
+
+div.products_auto_complete > div.AutoCompleted-container > button.ant-btn.search-btn.ant-btn-lg {
+	top: -6px;
+}
+ .ant-select-auto-complete.ant-select.ant-select-combobox > div > .ant-select-selection__rendered > div {
+	padding-left: 16px;
+}
+div.products_auto_complete > div.AutoCompleted-container > .ant-select-auto-complete.ant-select-combobox > div > .ant-select-selection__rendered > ul > li.ant-select-search.ant-select-search--inline {
+	margin: -4px
+}
+
+div.products_auto_complete > div.AutoCompleted-container > .ant-select-auto-complete.ant-select-combobox > div > .ant-select-selection__rendered > ul > li > div > span > span.ant-input-prefix {
+	top: 20px
+}

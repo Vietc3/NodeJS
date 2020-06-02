@@ -1,0 +1,34 @@
+.font-style-content {
+    font-size: 13px;
+    color: black;
+}
+
+.MuiTypography-root {
+    font-size: 13px !important;
+    color: black ;
+}
+
+.MuiListItemText-root,
+.HeaderLinks-linkText-256,
+.HeaderLinks-linkText-690,
+.MuiInputBase-input,
+.react-datepicker__input-container,
+.ant-input,
+.Card-card-451,
+.Card-card-306,
+.ant-upload
+{
+    font-family: Verdana!important;
+    font-size: 13px !important;
+}
+
+.MuiInput-root
+{
+    width: 100%;
+}
+
+.AdminNavbar-title-157,
+.ant-modal-title
+{
+    font-size: 16px !important;
+}

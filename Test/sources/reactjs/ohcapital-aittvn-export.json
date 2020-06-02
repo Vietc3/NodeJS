@@ -1,0 +1,547 @@
+	{
+	"Category" : [ null, {
+		"Child" : {
+		"6" : {
+			"Name" : "React Native"
+		},
+		"7" : {
+			"Name" : "ReactJS"
+		},
+		"-LljR3QO6Tz3cWuyVbu7" : {
+			"Name" : "Firebase"
+		}
+		},
+		"Name" : "Training"
+	}, {
+		"Child" : {
+		"3" : {
+			"Name" : "Computer"
+		},
+		"4" : {
+			"Name" : "Printer"
+		}
+		},
+		"Name" : "Device"
+	}, null, null, {
+		"Child" : {
+		"9" : {
+			"Child" : {
+			"-LljurxNMQ6Lv0AO9MjL" : {
+				"Name" : "abc"
+			}
+			},
+			"Name" : "Chair"
+		},
+		"10" : {
+			"Name" : "Table"
+		},
+		"11" : {
+			"Name" : "Book"
+		}
+		},
+		"Name" : "Office"
+	} ],
+	"IncExp" : [
+		{
+			"Amount" : 1000000,
+			"CategoryID" : "3",
+			"CreatedDateTime" : "1/8/2019",
+			"CreatorID" : "vuxBoubrYrTfFKDU8rumifZ96Pt2",
+			"Description" : "May tinh lap trinh cho Developer",
+			"Image" : [ "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2Fcdd2.jpg?alt=media&token=f2aa0292-aafc-4e27-b6dd-3ca9a7d933d8", "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2F1-4.jpg?alt=media&token=4a2f0c28-c7ec-40c9-93f6-bf3d9f2df1c6", "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2F1-4.jpg?alt=media&token=4a2f0c28-c7ec-40c9-93f6-bf3d9f2df1c6", "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2Fhoat_hinh.jpg?alt=media&token=1059d048-a683-4265-9420-2d7accd43b09" ],
+			"Name" : "Mua may tinh",
+			"Source" : "RFMwkZyOHehIuxMcunov877Oxkg2",
+			"Target" : "Tz2IDPsfD6dKe1VwfIMIVLlZFry2",
+			"Type" : "Incoming"
+			},
+		{
+			"Amount" : 2000000,
+			"CategoryID" : "4",
+			"CreateDateTime" : "2/8/2019",
+			"CreatorID" : "vuxBoubrYrTfFKDU8rumifZ96Pt2",
+			"Description" : "Quà tặng",
+			"Image" : [ "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2Fhinh-nen-mam-xanh_052337737.jpg?alt=media&token=0760c5dd-9368-4f7f-9df1-a8a7e6a2c7a5", "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2Fhalan.jpg?alt=media&token=6fffab0a-8ca6-4f2a-8fdc-e1514969b24d" ],
+			"Name" : "Quà tặng",
+			"Source" : "-Llfbt1TfeqFrzgxW61k",
+			"Target" : "CONG TY AITT",
+			"Type" : "Incoming"
+		},
+		{
+			"Amount" : 2030000,
+			"CategoryID" : "7",
+			"CreateDateTime" : "3/8/2019",
+			"CreatorID" : "vuxBoubrYrTfFKDU8rumifZ96Pt2",
+			"Description" : "Đào tạo React",
+			"Image" : [ "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2Fhinh-nen-mam-xanh_052337737.jpg?alt=media&token=0760c5dd-9368-4f7f-9df1-a8a7e6a2c7a5", "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2Fhalan.jpg?alt=media&token=6fffab0a-8ca6-4f2a-8fdc-e1514969b24d" ],
+			"Name" : "Đào tạo React",
+			"Source" : "-Llfbt1TfeqFrzgxW61k",
+			"Target" : "CONG TY AITT",
+			"Type" : "Incoming"
+		},
+		{
+			"Amount" : 1400000,
+			"CategoryID" : "4",
+			"CreateDateTime" : "4/8/2019",
+			"CreatorID" : "vuxBoubrYrTfFKDU8rumifZ96Pt2",
+			"Description" : "Mua máy in",
+			"Image" : [ "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2Fhinh-nen-mam-xanh_052337737.jpg?alt=media&token=0760c5dd-9368-4f7f-9df1-a8a7e6a2c7a5", "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2Fhalan.jpg?alt=media&token=6fffab0a-8ca6-4f2a-8fdc-e1514969b24d" ],
+			"Name" : "Mua máy in",
+			"Source" : "-Llfbt1TfeqFrzgxW61k",
+			"Target" : "CONG TY AITT",
+			"Type" : "Incoming"
+		},
+		{
+			"Amount" : 205000,
+			"CategoryID" : "11",
+			"CreateDateTime" : "5/8/2019",
+			"CreatorID" : "vuxBoubrYrTfFKDU8rumifZ96Pt2",
+			"Description" : "Mua Sách",
+			"Image" : [ "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2Fhinh-nen-mam-xanh_052337737.jpg?alt=media&token=0760c5dd-9368-4f7f-9df1-a8a7e6a2c7a5", "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2Fhalan.jpg?alt=media&token=6fffab0a-8ca6-4f2a-8fdc-e1514969b24d" ],
+			"Name" : "Mua Sách",
+			"Source" : "-Llfbt1TfeqFrzgxW61k",
+			"Target" : "CONG TY AITT",
+			"Type" : "Incoming"
+		},
+		{
+			"Amount" : 1600000,
+			"CategoryID" : "4",
+			"CreateDateTime" : "6/8/2019",
+			"CreatorID" : "vuxBoubrYrTfFKDU8rumifZ96Pt2",
+			"Description" : "Dữ liệu tháng 6",
+			"Image" : [ "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2Fhinh-nen-mam-xanh_052337737.jpg?alt=media&token=0760c5dd-9368-4f7f-9df1-a8a7e6a2c7a5", "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2Fhalan.jpg?alt=media&token=6fffab0a-8ca6-4f2a-8fdc-e1514969b24d" ],
+			"Name" : "Dữ liệu tháng 6",
+			"Source" : "-Llfbt1TfeqFrzgxW61k",
+			"Target" : "CONG TY AITT",
+			"Type" : "Incoming"
+		},
+		{
+			"Amount" : 2070000,
+			"CategoryID" : "4",
+			"CreateDateTime" : "7/8/2019",
+			"CreatorID" : "vuxBoubrYrTfFKDU8rumifZ96Pt2",
+			"Description" : "Dữ liệu tháng 7",
+			"Image" : [ "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2Fhinh-nen-mam-xanh_052337737.jpg?alt=media&token=0760c5dd-9368-4f7f-9df1-a8a7e6a2c7a5", "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2Fhalan.jpg?alt=media&token=6fffab0a-8ca6-4f2a-8fdc-e1514969b24d" ],
+			"Name" : "Dữ liệu tháng 7",
+			"Source" : "-Llfbt1TfeqFrzgxW61k",
+			"Target" : "CONG TY AITT",
+			"Type" : "Incoming"
+		},
+		{
+			"Amount" : 2080000,
+			"CategoryID" : "4",
+			"CreateDateTime" : "8/8/2019",
+			"CreatorID" : "vuxBoubrYrTfFKDU8rumifZ96Pt2",
+			"Description" : "Dữ liệu tháng 8",
+			"Image" : [ "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2Fhinh-nen-mam-xanh_052337737.jpg?alt=media&token=0760c5dd-9368-4f7f-9df1-a8a7e6a2c7a5", "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2Fhalan.jpg?alt=media&token=6fffab0a-8ca6-4f2a-8fdc-e1514969b24d" ],
+			"Name" : "Dữ liệu tháng 8",
+			"Source" : "-Llfbt1TfeqFrzgxW61k",
+			"Target" : "CONG TY AITT",
+			"Type" : "Incoming"
+		},
+		{
+			"Amount" : 2090000,
+			"CategoryID" : "4",
+			"CreateDateTime" : "9/8/2019",
+			"CreatorID" : "vuxBoubrYrTfFKDU8rumifZ96Pt2",
+			"Description" : "Dữ liệu tháng 9",
+			"Image" : [ "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2Fhinh-nen-mam-xanh_052337737.jpg?alt=media&token=0760c5dd-9368-4f7f-9df1-a8a7e6a2c7a5", "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2Fhalan.jpg?alt=media&token=6fffab0a-8ca6-4f2a-8fdc-e1514969b24d" ],
+			"Name" : "Dữ liệu tháng 9",
+			"Source" : "-Llfbt1TfeqFrzgxW61k",
+			"Target" : "CONG TY AITT",
+			"Type" : "Incoming"
+		},
+		{
+			"Amount" : 2100000,
+			"CategoryID" : "4",
+			"CreateDateTime" : "10/8/2019",
+			"CreatorID" : "vuxBoubrYrTfFKDU8rumifZ96Pt2",
+			"Description" : "Dữ liệu tháng 10",
+			"Image" : [ "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2Fhinh-nen-mam-xanh_052337737.jpg?alt=media&token=0760c5dd-9368-4f7f-9df1-a8a7e6a2c7a5", "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2Fhalan.jpg?alt=media&token=6fffab0a-8ca6-4f2a-8fdc-e1514969b24d" ],
+			"Name" : "Dữ liệu tháng 10",
+			"Source" : "-Llfbt1TfeqFrzgxW61k",
+			"Target" : "CONG TY AITT",
+			"Type" : "Incoming"
+		},
+		{
+			"Amount" : 2110000,
+			"CategoryID" : "4",
+			"CreateDateTime" : "7/8/2019",
+			"CreatorID" : "vuxBoubrYrTfFKDU8rumifZ96Pt2",
+			"Description" : "Dữ liệu tháng 11",
+			"Image" : [ "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2Fhinh-nen-mam-xanh_052337737.jpg?alt=media&token=0760c5dd-9368-4f7f-9df1-a8a7e6a2c7a5", "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2Fhalan.jpg?alt=media&token=6fffab0a-8ca6-4f2a-8fdc-e1514969b24d" ],
+			"Name" : "Dữ liệu tháng 11",
+			"Source" : "-Llfbt1TfeqFrzgxW61k",
+			"Target" : "CONG TY AITT",
+			"Type" : "Incoming"
+		},
+		{
+			"Amount" : 2120000,
+			"CategoryID" : "4",
+			"CreateDateTime" : "7/8/2019",
+			"CreatorID" : "vuxBoubrYrTfFKDU8rumifZ96Pt2",
+			"Description" : "Dữ liệu tháng 12",
+			"Image" : [ "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2Fhinh-nen-mam-xanh_052337737.jpg?alt=media&token=0760c5dd-9368-4f7f-9df1-a8a7e6a2c7a5", "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2Fhalan.jpg?alt=media&token=6fffab0a-8ca6-4f2a-8fdc-e1514969b24d" ],
+			"Name" : "Dữ liệu tháng 12",
+			"Source" : "-Llfbt1TfeqFrzgxW61k",
+			"Target" : "CONG TY AITT",
+			"Type" : "Incoming"
+		},
+		{
+			"Amount" : 1000000,
+			"CategoryID" : "4",
+			"CreatedDateTime" : "2/15/2019",
+			"CreatorID" : "vuxBoubrYrTfFKDU8rumifZ96Pt2",
+			"Description" : "Mua máy in cho Human Resource",
+			"Image" : [ "https://firebasestorage.googleapis.com/v0/b/ohc..." ],
+			"Name" : "Mua máy in",
+			"Source" : "RFMwkZyOHehIuxMcunov877Oxkg2",
+			"Target" : "Tz2IDPsfD6dKe1VwfIMIVLlZFry2",
+			"Type" : "Expanding"
+		},
+		{
+			"Amount" : 500000,
+			"CategoryID" : "9",
+			"CreatedDateTime" : "15/7/2019",
+			"CreatorID" : "Tz2IDPsfD6dKe1VwfIMIVLlZFry2",
+			"Description" : "Mua ghế cho phòng lập trình",
+			"Image" : [ "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2Fhalan.jpg?alt=media&token=bb7e7e64-a746-4ddd-898e-ddc2aeb49b4f", "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2Fhinh-nen-dep-3_044004.jpg?alt=media&token=73bda004-2046-4765-8081-5650938eed32", "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2Fhinh-nen-mam-xanh_052337737.jpg?alt=media&token=0760c5dd-9368-4f7f-9df1-a8a7e6a2c7a5", "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2F22451Avatar.jpg?alt=media&token=11e5cf06-e1a5-44cb-b3cc-70c82a907d10" ],
+			"Name" : "Mua bàn ghế",
+			"Source" : "CONG TY AITT",
+			"Target" : "vuxBoubrYrTfFKDU8rumifZ96Pt2",
+			"Type" : "Expanding"
+		},
+		{
+			"Amount" : 100000,
+			"CategoryID" : "11",
+			"CreatedDateTime" : "5/7/2019",
+			"CreatorID" : "vuxBoubrYrTfFKDU8rumifZ96Pt2",
+			"Description" : "Mua sổ cho phòng lập trình",
+			"Image" : [ null, "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2Fcanh-dep-phu-quoc-1.jpg?alt=media&token=0419b926-140c-4c50-81e6-ffa6f44f4685", "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2Fhinh-nen-bong-hoa-dep-day-suc-song_052333603.jpg?alt=media&token=accf26f8-6022-4466-bd60-d4138d0d7dc0", "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2Fhinh-nen-dep-cho-dien-thoai-50.jpg?alt=media&token=60af2bc0-c20d-4518-97a1-b6fc4701c33d", "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2F_hoa.jpg?alt=media&token=debee9f9-35e7-472b-add0-9fe2098b406f" ],
+			"Name" : "Mua sổ",
+			"Source" : "Tz2IDPsfD6dKe1VwfIMIVLlZFry2",
+			"Target" : "vuxBoubrYrTfFKDU8rumifZ96Pt2",
+			"Type" : "Expanding"
+		},
+		{
+			"Amount" : 1500000,
+			"CategoryID" : "10",
+			"CreatedDateTime" : "5/19/2019",
+			"CreatorID" : "vuxBoubrYrTfFKDU8rumifZ96Pt2",
+			"Description" : "Mua bàn cho phòng họp",
+			"Image" : [ "https://firebasestorage.googleapis.com/v0/b/ohc..." ],
+			"Name" : "Mua bàn họp",
+			"Source" : "RFMwkZyOHehIuxMcunov877Oxkg2",
+			"Target" : "Tz2IDPsfD6dKe1VwfIMIVLlZFry2",
+			"Type" : "Expanding"
+		},
+		{
+			"Amount" : 2800000,
+			"CategoryID" : "11",
+			"CreatedDateTime" : "14/8/2019",
+			"CreatorID" : "vuxBoubrYrTfFKDU8rumifZ96Pt2",
+			"Description" : "Mua sách cho sale",
+			"Image" : [ "https://firebasestorage.googleapis.com/v0/b/ohc..." ],
+			"Name" : "Mua sách",
+			"Source" : "RFMwkZyOHehIuxMcunov877Oxkg2",
+			"Target" : "Tz2IDPsfD6dKe1VwfIMIVLlZFry2",
+			"Type" : "Expanding"
+		},
+		{
+			"Amount" : 950000,
+			"CategoryID" : "6",
+			"CreatedDateTime" : "9/11/2019",
+			"CreatorID" : "vuxBoubrYrTfFKDU8rumifZ96Pt2",
+			"Description" : "Đào tạo React Native",
+			"Image" : [ "https://firebasestorage.googleapis.com/v0/b/ohc..." ],
+			"Name" : "Đào tạo React Native",
+			"Source" : "RFMwkZyOHehIuxMcunov877Oxkg2",
+			"Target" : "Tz2IDPsfD6dKe1VwfIMIVLlZFry2",
+			"Type" : "Expanding"
+		},
+		{
+			"Amount" : 6430000,
+			"CategoryID" : "7",
+			"CreatedDateTime" : "10/20/2019",
+			"CreatorID" : "vuxBoubrYrTfFKDU8rumifZ96Pt2",
+			"Description" : "Đào tạo ReactJS",
+			"Image" : [ "https://firebasestorage.googleapis.com/v0/b/ohc..." ],
+			"Name" : "Đào tạo ReactJS",
+			"Source" : "RFMwkZyOHehIuxMcunov877Oxkg2",
+			"Target" : "Tz2IDPsfD6dKe1VwfIMIVLlZFry2",
+			"Type" : "Expanding"
+		},
+		{
+			"Amount" : 900000,
+			"CategoryID" : "6",
+			"CreatedDateTime" : "11/12/2019",
+			"CreatorID" : "vuxBoubrYrTfFKDU8rumifZ96Pt2",
+			"Description" : "Đào tạo React Native",
+			"Image" : [ "https://firebasestorage.googleapis.com/v0/b/ohc..." ],
+			"Name" : "Đào tạo React Native",
+			"Source" : "RFMwkZyOHehIuxMcunov877Oxkg2",
+			"Target" : "Tz2IDPsfD6dKe1VwfIMIVLlZFry2",
+			"Type" : "Expanding"
+		},
+		{
+			"Amount" : 4500000,
+			"CategoryID" : "11",
+			"CreatedDateTime" : "6/16/2019",
+			"CreatorID" : "vuxBoubrYrTfFKDU8rumifZ96Pt2",
+			"Description" : "Mua sách cho nhân viên mới",
+			"Image" : [ "https://firebasestorage.googleapis.com/v0/b/ohc..." ],
+			"Name" : "Mua sách",
+			"Source" : "RFMwkZyOHehIuxMcunov877Oxkg2",
+			"Target" : "Tz2IDPsfD6dKe1VwfIMIVLlZFry2",
+			"Type" : "Expanding"
+		},
+		{
+			"Amount" : 6500000,
+			"CategoryID" : "9",
+			"CreatedDateTime" : "1/15/2019",
+			"CreatorID" : "vuxBoubrYrTfFKDU8rumifZ96Pt2",
+			"Description" : "Mua ghế ăn lẩu",
+			"Image" : [ "https://firebasestorage.googleapis.com/v0/b/ohc..." ],
+			"Name" : "Mua ghế",
+			"Source" : "RFMwkZyOHehIuxMcunov877Oxkg2",
+			"Target" : "Tz2IDPsfD6dKe1VwfIMIVLlZFry2",
+			"Type" : "Expanding"
+		},
+		{
+			"Amount" : 500000,
+			"CategoryID" : "-LljR3QO6Tz3cWuyVbu7",
+			"CreatedDateTime" : "3/6/2019",
+			"CreatorID" : "vuxBoubrYrTfFKDU8rumifZ96Pt2",
+			"Description" : "Đào tạo Firebase",
+			"Image" : [ "https://firebasestorage.googleapis.com/v0/b/ohc..." ],
+			"Name" : "Đào tạo Firebase",
+			"Source" : "RFMwkZyOHehIuxMcunov877Oxkg2",
+			"Target" : "Tz2IDPsfD6dKe1VwfIMIVLlZFry2",
+			"Type" : "Expanding"
+		},
+		{
+			"Amount" : 900000,
+			"CategoryID" : "3",
+			"CreatedDateTime" : "4/23/2019",
+			"CreatorID" : "vuxBoubrYrTfFKDU8rumifZ96Pt2",
+			"Description" : "Mua máy tính",
+			"Image" : [ "https://firebasestorage.googleapis.com/v0/b/ohc..." ],
+			"Name" : "Mua máy tính",
+			"Source" : "RFMwkZyOHehIuxMcunov877Oxkg2",
+			"Target" : "Tz2IDPsfD6dKe1VwfIMIVLlZFry2",
+			"Type" : "Expanding"
+		}
+	],
+	"Partner" : {
+		"-Llj1EXlnHYR0rma-8uT" : {
+		"Address" : "440",
+		"Email" : "dongduong@gmail.com",
+		"Name" : "Dong Duong",
+		"PhoneNumber" : "03454356",
+		"TaxCode" : "0343560406"
+		},
+		"-Llj89j1KcH7Sb8tVIqY" : {
+		"Address" : "343534",
+		"Email" : "dgfdfhdfctj",
+		"Name" : "Hoang Hon",
+		"PhoneNumber" : "232423",
+		"TaxCode" : "12345"
+		},
+		"-LljBVMN13eHmqH0qBYK" : {
+		"Address" : "440",
+		"Email" : "phuclong@pl.vn",
+		"Name" : "Phuc Long",
+		"PhoneNumber" : "5834534674506",
+		"TaxCode" : "34364234542"
+		},
+		"-LljWMdtTLm3jPhvdv9A" : {
+		"Address" : "440",
+		"Email" : "rose@gmail.com",
+		"Name" : "Hoa Hong",
+		"PhoneNumber" : "435346",
+		"TaxCode" : "4362"
+		}
+	},
+	"Settings" : {
+		"Name" : "CONG TY AITT"
+	},
+	"TableState" : {
+		"Category" : 5
+	},
+	"User" : {
+		"2rOx8BEvNHhEoBTtewU6Ggojscl2" : {
+		"CreatedDateTime" : 1565073551,
+		"FullName" : "Phong La",
+		"ModifiedDateTime" : 1565073551
+		},
+		"G5qh41ympZP9I8eiYuWlVnOM2jP2" : {
+		"CreatedDateTime" : 1565073551,
+		"FullName" : "Bui Thien Bao",
+		"ModifiedDateTime" : 1565073551
+		},
+		"RFMwkZyOHehIuxMcunov877Oxkg2" : {
+		"FullName" : "Son Nguyen"
+		},
+		"Tz2IDPsfD6dKe1VwfIMIVLlZFry2" : {
+		"FullName" : "Ngan Dang"
+		},
+		"hE3bTa8U0obdJEv2wfPg2BMYYyx1" : {
+		"FullName" : "Nghia Duong"
+		},
+		"vuxBoubrYrTfFKDU8rumifZ96Pt2" : {
+		"CreatedDateTime" : 1565073551,
+		"FullName" : "Hien Pham",
+		"ModifiedDateTime" : 1565073551
+		}
+	},
+	"notification" : {
+		"hienpham" : {
+		"266b421d-a42b-4808-8d2a-6a5f24c8657e" : {
+			"from" : "luanle",
+			"value" : "fdsfadf 345435 "
+		},
+		"5f7755e0-5833-4462-8427-a981077b366f" : {
+			"from" : "luanle",
+			"value" : "adsfdsf 1456464"
+		},
+		"6d613d9b-a5c9-43d1-be15-d180d3facdd1" : {
+			"from" : "luanle",
+			"value" : "fdsfadf 345435 "
+		}
+		},
+		"luanle" : {
+		"153069c2-ab60-43c8-85f0-0028c1e4bb95" : {
+			"from" : "luanle",
+			"value" : "sdfdjsflk dslfkjdslfj"
+		},
+		"88de7373-aa5a-4a4f-9ca7-91725e1e33d7" : {
+			"from" : "luanle",
+			"value" : "sdafadsfa3223"
+		},
+		"901305da-4760-4a07-914b-895d48905110" : {
+			"from" : "luanle",
+			"value" : "32f23foyhy23ifhio23"
+		},
+		"f6f50472-f37c-42f2-ac3e-ef5c526f8312" : {
+			"from" : "luanle",
+			"value" : "fewifjp3o2ufp23fu"
+		},
+		"id2" : {
+			"from" : "phongla",
+			"value" : "4dsf4ds65f4aswd6f"
+		}
+		},
+		"phongla" : {
+		"1f5fbcc5-2128-4d58-b7e1-76422fc5be8c" : {
+			"from" : "luanle",
+			"value" : "ưerwrewgradsfasfadsfdsa"
+		},
+		"6587deb5-c395-493f-8e31-5fca9dce334b" : {
+			"from" : "luanle",
+			"value" : "aefefewfewf46ew54f6e4wf564ew"
+		},
+		"daa3c5fb-8bb8-402f-af69-816acf31d524" : {
+			"from" : "luanle",
+			"value" : "ádfadsfasdfadsggagegw"
+		}
+		}
+	},
+	"partner" : {
+		"-LljNFVYPqoU81FJ538k" : {
+		"Name" : "213"
+		},
+		"-LljSC-WM0v4qx4tLiZ6" : {
+		"Name" : "15621",
+		"TaxCode" : "123123"
+		},
+		"undefined" : {
+		"Name" : "1231231"
+		}
+	},
+	"tempData" : {
+		"19b10c47-3523-44cb-8b1a-f79a0929199f" : {
+		"Amount" : "3697",
+		"Category" : "Development",
+		"Image" : [ "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2Fcanh-dep-phu-quoc-1.jpg?alt=media&token=0419b926-140c-4c50-81e6-ffa6f44f4685", "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2Fdownload.jpg?alt=media&token=5e49b37d-2141-4c95-bb0a-8d295a43174e", "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2Fgalaxy.jpg?alt=media&token=c06c839f-0dc3-40e4-97b2-415b441e516e", "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2Fhalan.jpg?alt=media&token=6fffab0a-8ca6-4f2a-8fdc-e1514969b24d", "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2Fhinh-nen-bong-hoa-dep-day-suc-song_052333603.jpg?alt=media&token=accf26f8-6022-4466-bd60-d4138d0d7dc0", "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2Fhinh-nen-dep-3_044004.jpg?alt=media&token=73bda004-2046-4765-8081-5650938eed32", "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2Fhinh-nen-dep-cho-dien-thoai-50.jpg?alt=media&token=60af2bc0-c20d-4518-97a1-b6fc4701c33d", "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2Fhinh-nen-mam-xanh_052337737.jpg?alt=media&token=0760c5dd-9368-4f7f-9df1-a8a7e6a2c7a5", "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2FHoaly.jpg?alt=media&token=fdd5bd5c-601c-460d-b83f-0853c18ec3e3", "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2Fhoat_hinh.jpg?alt=media&token=1059d048-a683-4265-9420-2d7accd43b09" ],
+		"Name" : "pham hien tt 7/8",
+		"Type" : "Invest"
+		},
+		"21b9caa3-f876-4a59-b893-d549a7d2487d" : {
+		"Amount" : "20000",
+		"Category" : "Development",
+		"Image" : [ "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2Fbaibien.jpg?alt=media&token=14f10e18-ef8e-4404-83ea-67a5788b2af0", "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2Fbuoichieu.jpg?alt=media&token=0b5aba48-0b65-4547-9d16-cdfcbc435a56", "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2Fcanh-dep-phu-quoc-1.jpg?alt=media&token=69a107b6-ee6c-429e-8d52-41adc5409a07", "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2Fdownload.jpg?alt=media&token=fe63e367-4fb8-4678-a207-94b4dbcbc3a8" ],
+		"Name" : "test",
+		"Type" : "Invest"
+		},
+		"336af959-d0db-4225-90fd-763964d9ee9b" : {
+		"Amount" : "10000",
+		"Category" : "Development",
+		"Image" : [ "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2F1-4.jpg?alt=media&token=4a2f0c28-c7ec-40c9-93f6-bf3d9f2df1c6", "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2Fcdd2.jpg?alt=media&token=f2aa0292-aafc-4e27-b6dd-3ca9a7d933d8" ],
+		"Name" : "pham hien image",
+		"Type" : "Invest"
+		},
+		"3dd21561-5ba6-4caa-a008-736d58e22e13" : {
+		"Amount" : "22222",
+		"Category" : "Building",
+		"Image" : "",
+		"Name" : "gnfjf",
+		"Type" : "Invest"
+		},
+		"592891f9-f34c-4265-bb87-93ae5bcde8ad" : {
+		"Amount" : "12312312",
+		"Category" : "Development",
+		"Image" : [ "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2Fcanh-dep-phu-quoc-1.jpg?alt=media&token=2387e030-027a-4187-b161-2b44d35f9464", "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2Fdownload.jpg?alt=media&token=4ec428ec-c70a-44bb-a88c-e678c6fbac8b", "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2Fgalaxy.jpg?alt=media&token=47145696-0e85-4c4a-86de-c462d7bd3a5d" ],
+		"Name" : "Pham Hien Hinh Anh",
+		"Type" : "Invest"
+		},
+		"c0dce64c-995a-4ce6-a2b3-87983e5df44d" : {
+		"Amount" : "10000",
+		"Category" : "Building",
+		"Image" : [ "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2Fbaibien.jpg?alt=media&token=6716d1ba-1834-4429-951a-a3ed40801bf1", "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2Fbuoichieu.jpg?alt=media&token=d467c8cc-536b-4cae-88cf-5a1f27d8a128", "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2Fhalan.jpg?alt=media&token=bb7e7e64-a746-4ddd-898e-ddc2aeb49b4f", "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2Fkhicau.jpg?alt=media&token=5cc9661b-4d3a-4610-87f6-aac4cd6df56b" ],
+		"Name" : "pham hien 1 imgae",
+		"Type" : "Use"
+		},
+		"de2a2de0-ea85-4262-90fc-24c965c1e65f" : {
+		"Amount" : "500",
+		"Category" : "Development",
+		"Image" : [ "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2F326413.jpg?alt=media&token=e99cbbe8-0745-4c1f-b5a8-b84be4dd781f" ],
+		"Name" : "phong",
+		"Type" : "Invest"
+		},
+		"dfab5fc9-8aea-443e-835a-c56e9ec7c042" : {
+		"Amount" : "200000",
+		"Category" : "Building",
+		"Image" : [ "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2Fcanh-dep-phu-quoc-1.jpg?alt=media&token=a93eb364-281e-49cc-955f-3df8f2e1560a", "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2Fhinh-nen-dep-3_044004.jpg?alt=media&token=220215e2-5a0e-4e3f-b3ce-fa8b6f4b6ff9", "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2Fimages.jpg?alt=media&token=706ce0bb-6778-4616-9914-e26aec4d3e42", "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2Flove.jpg?alt=media&token=0e862ea3-879b-47f3-b04b-9b2727335057", "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2FNhat%20Ban%201.jpg?alt=media&token=4ea802ab-d346-4d61-af8a-72a80d49eead", "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2Frose.jpg?alt=media&token=b7bf2983-4cb8-41b1-89d7-732fe8ca1753" ],
+		"Name" : "Test view image 1",
+		"Type" : "Use"
+		},
+		"e6ca1d7e-013a-4945-a8d6-3a8de6ba245a" : {
+		"Amount" : "1200000",
+		"Category" : "Building",
+		"Image" : [ "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2F_hoa.jpg?alt=media&token=debee9f9-35e7-472b-add0-9fe2098b406f", "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2F5.jpg?alt=media&token=3550ae7d-a4f4-4cf6-bf2a-72887b59b24c", "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2F9_6aa1f.jpg?alt=media&token=529ddf2b-ab80-44a9-af94-a0b27e10da21", "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2F597.jpg?alt=media&token=72c69f0f-46c9-4192-abb3-77cfeb00a288", "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2F2004_10_16_autumn_road.jpg?alt=media&token=2d1f0b66-08e3-4c27-9855-a863a0ef09d4", "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2F22451Avatar.jpg?alt=media&token=11e5cf06-e1a5-44cb-b3cc-70c82a907d10", "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2F292249-p3.jpg?alt=media&token=8d34e078-43c4-49f5-8028-5b0474c0312c", "https://firebasestorage.googleapis.com/v0/b/ohcapital-aittvn.appspot.com/o/images%2F2467685_ImageUploadedByTinhte.vn1397831825.893456.jpg?alt=media&token=785140c1-3327-45af-a71f-a565f0256949" ],
+		"Name" : "hien 6.8",
+		"Type" : "Invest"
+		}
+	},
+	"users" : {
+		"user1" : {
+		"Category" : "Development",
+		"email" : "luanle@aitt.vn"
+		},
+		"user2" : {
+		"Category" : "all",
+		"email" : "tiennguyen@aitt.vn"
+		},
+		"user3" : {
+		"Category" : "Development",
+		"email" : "hienpham@aitt.vn"
+		},
+		"user4" : {
+		"Category" : "Development",
+		"email" : "phongla@aitt.vn"
+		},
+		"user5" : {
+		"Category" : "Building",
+		"email" : "build@aitt.vn"
+		}
+	}
+	}

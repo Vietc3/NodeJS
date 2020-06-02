@@ -1,0 +1,35 @@
+import React, { Component } from "react";
+// import Button from '@material-ui/core/Button';
+import SweetAlert from "react-bootstrap-sweetalert";
+import withStyles from "@material-ui/core/styles/withStyles";
+import { withTranslation } from "react-i18next";
+import buttonsStyle from "assets/jss/material-dashboard-pro-react/views/buttonsStyle.jsx";
+
+class AlertSuccess extends Component {
+	constructor(props) {
+		super(props);
+		this.state = {
+		};
+	}
+	render(){
+		const { t} = this.props;
+		return (
+			<SweetAlert
+				danger
+				style={{width:window.innerWidth<900?300:500, display: "block",marginLeft:0,marginTop:0,top:`${(window.innerHeight/2-85)*100/window.innerHeight}%`,left:`${(window.innerWidth/2-150)*100/window.innerWidth}%`}}
+				title = {t("Error!")}
+				onConfirm={() => {}}
+				showConfirm={false}
+				confirmBtnCssClass={
+					this.props.classes.button + " " + this.props.classes.info
+				}
+			></SweetAlert>
+		);
+	}
+}
+
+export default withTranslation("translations")(
+    withStyles(() => ({
+		...buttonsStyle
+    }))(AlertSuccess)
+ );
